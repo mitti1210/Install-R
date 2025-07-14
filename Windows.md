@@ -41,7 +41,7 @@ mkdir C:\Users\$Env:USERNAME\R\library
 次にスタートメニューに「env」と入力し環境変数の編集を選びます。次に上真ん中の以下の新規をクリックします。
 
 -   変数名: R_LIBS_USER
--   変数値: C:\Users\<あなたのユーザー名\>\R\library
+-   変数値: C:\Users\<あなたのユーザー名>\R\library
 
 `<あなたのユーザー名>`は先ほどメモ帳にコピーしておいた自分のアカウント名に置き換えてください （例えばC:\Users\taroyamada\R\library）。
 
@@ -92,6 +92,8 @@ Rのインストールは完了しましたが、実際にRを使う時はRStudi
 winget install -e Posit.RStudio
 ```
 
-
-
+```
+install.packages("pacman")
+pacman::p_load(tidyverse)
+```
 

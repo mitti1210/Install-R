@@ -1,6 +1,6 @@
 # Windows
 
-Windowsはアカウント名が英語か日本語化でインストールのおこないやすさがまったく異なります。
+Windowsはアカウント名が英語か日本語化でインストールの手間がまったく異なります。
 またOnedriveを使っているかどうかでもインストールする前の準備が変わります。
 
 ## wingetの利用
@@ -15,7 +15,7 @@ wingetを使うとわざわざホームページにいきダウンロードせ�
 
 以下をコピペし貼り付けてEnter
 
-```
+``` powershell
 winver
 ```
 
@@ -34,7 +34,7 @@ $Env:USERNAME
 ドキュメントを見てOnedriveと書いてないか確認
 書いてあれば以下の作業が必要
 
-```
+``` powershell
 mkdir C:\Users\$Env:USERNAME\R\library
 ```
 
@@ -68,7 +68,7 @@ winget -v
 
 ### rのインストール
 
-```
+```　powershell
 winget install -e RProject.R
 ```
 

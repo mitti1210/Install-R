@@ -95,23 +95,25 @@ pacman::p_load(skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone)
 uname -m
 ```
 
-以下のどちらかが出ます
+以下のどちらかが出ます。インストールする時に必要になります
 
-1. arm64:(MacbookのM1, M2, M3, M4など新しいMac)
-2. x86_64:(MacbookのIntel CPUなど古いMac)
+1. arm64
+2. x86_64
 
 
 
 ④ RとRstudioのインストール
+```
+RStudio
+```
 
 
-
-⑦ pacmanのインストール
+⑤ pacmanのインストール
 ```
 install.packages("pacman")
 ```
 
-⑧ パッケージのインストール
+⑥ パッケージのインストール
 ```
 pacman::p_load(skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone)
 ```

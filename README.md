@@ -89,10 +89,16 @@ pacman::p_load(skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone)
 
 ## Macの場合
 
+```
+https://github.com/r-lib/rig/releases
+```
+
 ① バージョンの確認
 ```
 uname -m
 ```
+
+
 
 ### arm64と出た場合(MacbookのM1, M2, M3, M4など)
 

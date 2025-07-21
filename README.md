@@ -140,7 +140,17 @@ uname -m
 https://github.com/r-lib/rig/releases
 ```
 
+```
+rig --version
+```
+
+
+
 ③ Rのインストール
+```
+rig available
+```
+
 
 最新版をインストールする場合
 ```

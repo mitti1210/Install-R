@@ -28,7 +28,7 @@ winget -v
 
 ------------------------------------------------------------------------
 
-### Windows 10, 11の場合
+### wingetが使える場合
 
 ④ Rのインストール
 
@@ -71,6 +71,7 @@ mkdir C:\Users\$Env:USERNAME\R\library
 ⑩ 環境変数
 
 ```         
+
 ```
 
 ⑪ pacmanのインストール
@@ -89,49 +90,21 @@ pacman::p_load(skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone)
 
 ## Macの場合
 
-```
-https://github.com/r-lib/rig/releases
-```
-
 ① バージョンの確認
 ```
 uname -m
 ```
 
+以下のどちらかが出ます
 
-
-### arm64と出た場合(MacbookのM1, M2, M3, M4など)
-
-② Homebrewのインストール
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-③ Homebrewのパスを通す
-```
-(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ~/.zprofile
-```
-
-```
-eval "$(/opt/homebrew/bin/brew shellenv)"
-```
+1. arm64:(MacbookのM1, M2, M3, M4など新しいMac)
+2. x86_64:(MacbookのIntel CPUなど古いMac)
 
 
 
-④ rigのインストール
-```
-brew install rig
-```
+④ RとRstudioのインストール
 
-⑤ Rのインストール
-```
-rig add release
-```
 
-⑥ RStudioのインストール
-```
-brew install --cask rstudio
-```
 
 ⑦ pacmanのインストール
 ```
@@ -144,43 +117,3 @@ pacman::p_load(skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone)
 ```
 
 
-### x86_64と出た場合(MacbookのIntel CPUなど)
-
-② Homebrewのインストール
-```
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-```
-
-③ Homebrewのパスを通す
-```
-(echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> ~/.zprofile
-```
-
-```
-eval "$(/usr/local/bin/brew shellenv)"
-```
-
-④ rigのインストール
-```
-brew install rig
-```
-
-⑤ Rのインストール
-```
-rig add release
-```
-
-⑥ RStudioのインストール
-```
-brew install --cask rstudio
-```
-
-⑦ pacmanのインストール
-```
-install.packages("pacman")
-```
-
-⑧ パッケージのインストール
-```
-pacman::p_load(skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone)
-```

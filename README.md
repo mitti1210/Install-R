@@ -144,7 +144,7 @@ https://github.com/r-lib/rig/releases
 
 最新版をインストールする場合
 ```
-rig add releases
+rig add
 ```
 
 指定のバージョンをインストールする場合(ここでは)

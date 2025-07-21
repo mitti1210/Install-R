@@ -88,7 +88,7 @@ pacman::p_load(skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone)
 
 ### 
 
-## Macの場合
+## Macの場合(なるべく簡単にインストールしたい)
 
 ① バージョンの確認
 ```

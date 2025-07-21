@@ -144,6 +144,7 @@ pacman::p_load(skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone)
 ③ Homebrewのパスを通す
 ```
 (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> ~/.zprofile
+
 eval "$(/usr/local/bin/brew shellenv)"
 ```
 

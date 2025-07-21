@@ -103,6 +103,8 @@ uname -m
 
 
 ④ RとRstudioのインストール
+以下をウェブで検索
+
 ```
 RStudio
 ```

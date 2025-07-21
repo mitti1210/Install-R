@@ -104,8 +104,12 @@ uname -m
 ③ Homebrewのパスを通す
 ```
 (echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> ~/.zprofile
+```
+
+```
 eval "$(/opt/homebrew/bin/brew shellenv)"
 ```
+
 
 
 ④ rigのインストール
@@ -144,10 +148,11 @@ pacman::p_load(skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone)
 ③ Homebrewのパスを通す
 ```
 (echo; echo 'eval "$(/usr/local/bin/brew shellenv)"') >> ~/.zprofile
-
-eval "$(/usr/local/bin/brew shellenv)"
 ```
 
+```
+eval "$(/usr/local/bin/brew shellenv)"
+```
 
 ④ rigのインストール
 ```

@@ -87,10 +87,10 @@ mkdir C:\Users\$Env:USERNAME\R\library
 
 ⑪ rigのインストール
 
-ブラウザに以下を入力
+PowerShellに以下を入力
 
 ```
-https://github.com/r-lib/rig/releases
+winget install posit.rig
 ```
 
 windows板をインストール

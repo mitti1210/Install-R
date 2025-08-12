@@ -65,6 +65,8 @@ winget install -e Posit.RStudio
 install.packages("pacman")
 ```
 
+tidyverse
+
 ⑧ パッケージのインストール
 
 ```         
@@ -106,7 +108,7 @@ rig add release
 完了するまで待ち以下を実行
 
 ```
-rig system rtools
+rig system rtools add
 ```
 
 ⑬ RStudioのインストール

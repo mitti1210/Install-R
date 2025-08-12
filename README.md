@@ -8,11 +8,18 @@ RのインストールはWndows, Macでも違いがあるだけでなく、バ�
 
 ### 環境の確認
 
-① バージョン確認
+PowerShellを開きます
+
+<img width="813" height="820" alt="image" src="https://github.com/user-attachments/assets/526b52cd-8678-47db-885e-c199b4198775" />
+
+
+① Windowsのバージョン確認
 
 ```         
 winver
 ```
+
+Windows11なら②へ。10より前なら②の後⑨へ
 
 ② アカウント名の確認
 
@@ -20,11 +27,15 @@ winver
 $Env:USERNAME
 ```
 
+英語で始まる英数字かどうかを確認
+
 ③ wingetが使えるかの確認
 
 ```         
 winget -v
 ```
+
+v1.11.430 のようなバージョン情報が出ていれば次に進める
 
 ------------------------------------------------------------------------
 
@@ -68,11 +79,39 @@ skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone
 mkdir C:\Users\$Env:USERNAME\R\library
 ```
 
-⑩ 環境変数
+⑩ 環境変数の作成
 
 ```         
 
 ```
+
+⑪ rigのインストール
+
+ブラウザに以下を入力
+
+```
+https://github.com/r-lib/rig/releases
+```
+
+windows板をインストール
+
+⑫ rigの起動
+
+PowerShellを開く
+
+```
+rig add release
+```
+
+完了するまで待ち以下を実行
+
+```
+rig system rtools
+```
+
+⑬ RStudioのインストール
+
+https://posit.co/download/rstudio-desktop/
 
 ⑪ pacmanのインストール
 

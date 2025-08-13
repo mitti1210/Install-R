@@ -13,5 +13,7 @@
 ## macOS
 - [RStudio サイトからの簡単インストール](mac-rstudio.md)
   - なるべく簡単にセットアップしたい方向け。
+- [Homebrew でインストール](mac-homebrew.md)
+  - Homebrew でパッケージ管理している方向け。
 - [rig でバージョン管理](mac-rig.md)
   - 複数バージョンを扱いたい方向け。

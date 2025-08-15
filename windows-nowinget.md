@@ -21,6 +21,7 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
    - 変数名: `R_LIBS_USER`
    - 変数値: `C:\Users\◯◯\Documents\R\libs` （◯◯はアカウント名）
 
+
 ## 4. R / Rtools / RStudio のインストール
 1. [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) を開き、`Download R for Windows` から R をインストールします。
 2. 同じサイトから Rtools と RStudio もダウンロードしてインストールします。

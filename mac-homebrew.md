@@ -1,29 +1,123 @@
-# macOS: Homebrew でインストール
+# macOS: Homebrew で R と RStudio をインストールする方法
+
+文字を打つ場所や「Enter」を押すタイミングまで丁寧に説明します。
+
+## 0. ターミナルを開く
+
+1. 画面左上の **Finder**（顔のアイコン）をクリックします。\
+2. メニューから **アプリケーション > ユーティリティ** を開き、**ターミナル** をダブルクリックします。\
+   - 検索欄で `ターミナル` と入力しても開けます。\
+3. 黒い画面が開き、ここに文字を入力します。これを **ターミナル（コマンドライン）** と呼びます。\
+   - ここに出てくる命令文をマウスで選択し、`⌘ + C` でコピー、ターミナルで `⌘ + V` で貼り付け、\
+     **Enter キー**を押すと実行できます。
 
 ## 1. CPU アーキテクチャの確認
-ターミナルで次を実行し、`arm64` または `x86_64` が表示されることを確認します。
+
+あなたの Mac が Apple シリコン(arm64) か Intel(x86_64) かを確認します。\
+ターミナルに次を貼り付け、Enter を押します。
+
 ```bash
 uname -m
 ```
 
+`arm64` なら Apple シリコン、`x86_64` なら Intel です。後の手順で迷ったときの目印になります。
+
 ## 2. Homebrew の確認
-Homebrew がインストール済みか確認します。
+
+**Homebrew** は Mac でソフトをまとめて管理できる道具です。\
+入っているか確かめるため、次を実行します。
+
 ```bash
 brew --version
 ```
-インストールされていない場合は [公式サイト](https://brew.sh/) の手順で導入してください。
 
-## 3. インストール手順
-1. R をインストール
-   ```bash
-   brew install --cask r
-   ```
-2. RStudio をインストール
-   ```bash
-   brew install --cask rstudio
-   ```
-3. RStudio を起動しパッケージをインストール
-   ```r
-   install.packages("pacman")
-   pacman::p_load(skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone)
-   ```
+バージョン番号が表示されれば OK です。\
+何も表示されない場合は、ブラウザで [Homebrew の公式サイト](https://brew.sh/) を開き、\
+そのページにあるコードをターミナルに貼り付けて Enter を押してインストールしてください。
+
+## 3. Homebrew で rig をインストールする
+
+**rig** は R のバージョンを簡単に切り替えるための道具です。\
+最初に Homebrew に rig の場所を教えてから、インストールします。
+
+```bash
+brew tap r-lib/rig
+brew install rig
+```
+
+- `brew tap` は Homebrew に新しいソフトの倉庫を追加する合図です。初回だけで大丈夫です。
+- `brew install rig` で rig 本体を入れます。
+
+## 4. rig で R をインストールする
+
+ここからは Homebrew ではなく rig を使います。
+
+1. **rig が正しく入ったか確認**
+
+    ```bash
+    rig --version
+    ```
+
+    バージョン番号が出れば成功です。
+
+2. **インストールできる R の一覧を見る**
+
+    ```bash
+    rig available
+    ```
+
+    どのバージョンの R を用意できるかが表示されます。
+
+3. **最新の R をインストール**
+
+    ```bash
+    rig add release
+    ```
+
+    `release` は「一番新しい安定版」を意味します。通常はこれだけで十分です。\
+    *もし特定のバージョンを入れたい場合だけ* 次のように数字を指定します。
+
+    ```bash
+    rig add 4.4.3
+    ```
+
+4. **インストールされている R を確認**
+
+    ```bash
+    rig list
+    ```
+
+    1つだけ入っているならそのバージョンだけが表示されます。\
+    2つ以上入れた場合はここで一覧を確認できます。
+
+5. **使う R のバージョンを切り替える**
+
+    ```bash
+    rig default 4.4.3
+    ```
+
+    バージョンを複数入れているときだけ必要な操作です。\
+    1つしか入っていないなら何もしなくて大丈夫です。
+
+## 5. RStudio をインストールする
+
+**RStudio** は R を使いやすくするアプリです。Homebrew で入れます。
+
+```bash
+brew install --cask rstudio
+```
+
+`--cask` は「通常のアプリとしてインストールする」という意味です。
+
+## 6. RStudio で必要なパッケージを入れる
+
+1. 「アプリケーション」フォルダから RStudio を開きます。\
+2. 画面下部の「Console」と書かれた白い場所に次の2行を順番に貼り付け、Enter を押します。
+
+```r
+install.packages("pacman")
+pacman::p_load(skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone)
+```
+
+これで授業で使う R の準備は完了です。
+

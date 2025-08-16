@@ -31,9 +31,12 @@ uname -m
 
 1. ブラウザで [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) を開きます。
 
-<img width="300" height="74" alt="image" src="https://github.com/user-attachments/assets/34acf8db-edb0-4421-ba28-6f8fc3875970" />
 
 2. ページ内の **Download AND INSTALL R** をクリックし、表示されたリンクから自分の CPU に合った `R-*-macos.pkg` をダウンロードします。
+
+
+<img width="300" height="74" alt="image" src="https://github.com/user-attachments/assets/34acf8db-edb0-4421-ba28-6f8fc3875970" />
+
 <img width="496" height="327" alt="image" src="https://github.com/user-attachments/assets/2bc31002-4ebb-4462-83ae-7c5331b478df" style="border: 1px solid #000;" />
 
    - ファイル名に `arm64` があれば Apple シリコン用、`x86_64` があれば Intel 用です。

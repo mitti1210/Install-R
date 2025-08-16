@@ -14,14 +14,16 @@
 
 ## Windows
 
-### [RStudio サイトからの簡単インストール](windows-rstudio.md)
+### [RStudio サイトからのインストール](windows-rstudio.md)
 もっとも一般的な方法です。RStudio のサイトから R・Rtools・RStudio を順番にインストールします。迷ったらまずはこの手順で大丈夫です。
 
+ただ次のwingetを使った方がより早く簡単にインストールができます。
+
 ### [winget での簡単インストール](windows-winget.md)
-上記よりも早く簡単にインストールしたい方向けです。Windows で **winget** が使える環境なら、PowerShell に数行貼り付けるだけで R・Rtools・RStudio がまとめて入ります。
+上記よりも早く簡単にインストールしたい方向けです。Windows で **winget** が使える環境なら、PowerShell に数行貼り付けるだけで、半自動的に自分のパソコン環境に合った R・Rtools・RStudio をインストールできます。
 
 ### [rig で複数バージョンを管理](windows-rig.md)
-複数の R バージョンを切り替えたい方向けです。まず winget で rig を入れ、rig から R をインストールします。複数の R バージョンを切り替えられます。
+複数の R バージョンを切り替えたい方向けです。まず winget で rig を入れ、rig から R と Rtoolsをインストールします。複数の R バージョンを切り替えられます。
 
 ## macOS
 

@@ -136,7 +136,7 @@ rig default 4.4.3
 winget install -e Posit.RStudio
 ```
 
-`-e` は完全一致検索のオプションです。
+これだけでRStudioのインストールが完了します。
 
 ## 9. RStudio の初期設定とパッケージのインストール
 

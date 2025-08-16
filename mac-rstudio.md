@@ -27,17 +27,44 @@ uname -m
 ## 2. R と RStudio のダウンロードとインストール
 
 1. ブラウザで [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) を開きます。
+
+<img width="613" height="442" alt="image" src="https://github.com/user-attachments/assets/3c8bceee-152c-47a4-98bd-a8207e66d61d" />
+
 2. ページ内の **Download R for macOS** をクリックし、表示されたリンクから自分の CPU に合った `R-*-macos.pkg` をダウンロードします。
+<img width="992" height="653" alt="image" src="https://github.com/user-attachments/assets/2bc31002-4ebb-4462-83ae-7c5331b478df" />
+
    - ファイル名に `arm64` があれば Apple シリコン用、`x86_64` があれば Intel 用です。
+
 3. ダウンロードした `.pkg` ファイルをダブルクリックし、画面の指示に従って R をインストールします。
-4. 同じページにある **RStudio** の `Download` ボタンをクリックし、`RStudio.dmg` をダウンロードします。
+<img width="612" height="443" alt="image" src="https://github.com/user-attachments/assets/498f3dfd-b3b8-44a5-84bd-21723c042000" />
+続けるを選択
+
+<img width="612" height="443" alt="image" src="https://github.com/user-attachments/assets/7b39eb77-a4d3-4722-ad4c-63e25b6a7e6c" />
+続けるを選択
+
+<img width="612" height="443" alt="image" src="https://github.com/user-attachments/assets/c18477fb-8802-42c2-8de7-ae538ba52a6e" />
+続けるを選択
+
+<img width="612" height="443" alt="image" src="https://github.com/user-attachments/assets/c341f590-640a-455d-8b14-16cd335de39a" />
+同意する
+
+<img width="612" height="443" alt="image" src="https://github.com/user-attachments/assets/efcf5268-85a1-4b44-b607-97a79fc9b97b" />
+インストールを選択
+
+4. [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) に戻り、 **RStudio** の `Download` ボタンをクリックし、`RStudio.dmg` をダウンロードします。
+<img width="625" height="350" alt="image" src="https://github.com/user-attachments/assets/00409251-9fe1-47ab-a014-07433421628c" />
+
 5. ダウンロードした `.dmg` ファイルをダブルクリックし、表示されるウインドウから **RStudio** を **アプリケーション** フォルダにドラッグします。
+<img width="279" height="111" alt="image" src="https://github.com/user-attachments/assets/9816a752-b003-4536-8140-58ae54bce47f" />
 
 ## 3. XQuartz をインストール（必要な人のみ）
 
 **R Commander や EZR、3D グラフを使いたい方向け**の追加作業です。X11 を利用するこれらの機能には **XQuartz 2.8.5 以降** が必要です。
 [CRAN の macOS 用ページ](https://cran.rstudio.com/bin/macosx/) にリンクがあります。macOS をメジャーバージョンアップしたら XQuartz も再インストールしてください。
 <https://www.xquartz.org> からダウンロードし、通常のアプリと同じようにインストールします。
+
+<img width="992" height="653" alt="image" src="https://github.com/user-attachments/assets/1071ae0c-391e-4241-9954-b3bd31f2c2e2" />
+
 
 ## 4. RStudio で必要なパッケージを入れる
 

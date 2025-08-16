@@ -21,6 +21,9 @@ PowerShell の開き方やコマンドの貼り付け方から丁寧に説明し
 
 ## 1. 前提条件の確認
 
+<img width="695" height="401" alt="image" src="https://github.com/user-attachments/assets/9b5e495e-0c4f-4129-9c5e-d16ee3dd4fa3" />
+
+
 1. **Windows のバージョン確認**
 
     ```powershell

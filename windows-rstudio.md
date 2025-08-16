@@ -61,7 +61,7 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
 1. ブラウザで [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) を開きます。
 2. ページ内の **Download AND INSTALL R** をクリックし、表示された CRAN のページで **base** を選びます。
 
-<img width="449" height="98" alt="image" src="https://github.com/user-attachments/assets/7b8eda05-b934-4948-b539-3eabe7471e86" />
+<img width="300" height="74" alt="image" src="https://github.com/user-attachments/assets/34acf8db-edb0-4421-ba28-6f8fc3875970" />
 
 3. 上にある **Download R-x.y.z for Windows** のようなリンクからインストーラ (`R-x.y.z-win.exe`) をダウンロードし、起動します。バージョン番号 (`x.y.z`) は最新のものに置き換わります。
     - インストーラでは案内に従って「Next」を押し、ライセンスに同意し、インストール場所もデフォルトのままで構いません。最後に「Finish」で閉じます。

@@ -16,7 +16,6 @@
 
 ### [RStudio サイトからのインストール](windows-rstudio.md)
 もっとも一般的な方法です。RStudio のサイトから R・Rtools・RStudio を順番にインストールします。迷ったらまずはこの手順で大丈夫です。
-
 ただ次のwingetを使った方がより早く簡単にインストールができます。
 
 ### [winget での簡単インストール](windows-winget.md)

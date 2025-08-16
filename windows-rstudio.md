@@ -68,7 +68,47 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
 <img width="496" height="87" alt="image" src="https://github.com/user-attachments/assets/c23d267c-c193-467f-ba1d-550361bb7f00" />
 
    インストーラでは案内に従って「Next」を押し、ライセンスに同意し、インストール場所もデフォルトのままで構いません。最後に「Finish」で閉じます。
-    
+
+   <img width="445" height="248" alt="image" src="https://github.com/user-attachments/assets/af29572a-4e94-4aa7-bee3-6ef4177b093f" />
+
+   日本語を選択
+
+   <img width="737" height="562" alt="image" src="https://github.com/user-attachments/assets/2f29f012-7082-43e6-b99d-0a042de31bb8" />
+
+   次へを選択
+
+   <img width="729" height="555" alt="image" src="https://github.com/user-attachments/assets/64bb3bcc-4eb5-47e5-b865-78fccafe2ffc" />
+
+   次へを選択
+
+   <img width="733" height="560" alt="image" src="https://github.com/user-attachments/assets/fe67d8d3-2713-4ce1-88da-8e448d1b7f7f" />
+
+   全てチェックがついていることを確認して次へを選択
+
+   <img width="727" height="556" alt="image" src="https://github.com/user-attachments/assets/68df2d98-5b78-418c-b8fe-38088486c111" />
+
+   デフォルトのままで次へを選択
+   
+   <img width="727" height="556" alt="image" src="https://github.com/user-attachments/assets/0ad60ce0-24ff-43e8-a120-10891c29aad1" />
+
+   次へを選択
+   
+   <img width="731" height="554" alt="image" src="https://github.com/user-attachments/assets/39eca991-7714-405d-977e-f7a9c67796c9" />
+
+   上2つは好みに合わせて。下2つはチェックをつけ次へを選択
+
+   <img width="728" height="557" alt="image" src="https://github.com/user-attachments/assets/a7a69285-2f08-470b-b4d5-1b27a2a05aac" />
+
+   インストールが終わるのを待つ
+
+   <img width="720" height="550" alt="image" src="https://github.com/user-attachments/assets/22a0332d-50bc-4d32-8791-6c03c8c34764" />
+
+   完了を選択
+
+   <img width="149" height="54" alt="image" src="https://github.com/user-attachments/assets/de3f17a2-5d24-432c-bf97-8acc4f347332" />
+
+   ダウンロードしたインストーラーはゴミ箱に捨ててOK
+   
 4. 前のページに戻り **Rtools** を選び、インストールした R のバージョンをクリックします。
     - ページの中ほどに「Rtools45 may be installed from the Rtools45 installer or 64-bit ARM Rtools45 installer. It is recommended to use the defaults, including the default installation location of C:\rtools45.」のような記載があるので、先ほど `$Env:PROCESSOR_ARCHITECTURE` で確認した結果に合わせて `Rtools45 installer` (AMD64) か `64-bit ARM Rtools45 installer` (ARM64) のどちらかを選びます。ここでの `45` は R のバージョンによって変わることがあります。
     - Rtools のダウンロードは容量が大きいため、回線や PC によってはダウンロード・インストールに 10 分ほどかかることがあります。

@@ -22,37 +22,36 @@ PowerShell の開き方やコマンドの貼り付け方から丁寧に説明し
 
    以下をコピーしてPowerShellに張り付けてEnterを押してください。
 
-    ```powershell
-    winver
-    ```
+   ```powershell
+   winver
+   ```
 
-    画面に Windows のバージョンが表示されます。Windows 10 以上であれば OK です。
+   画面に Windows のバージョンが表示されます。Windows 10 以上であれば OK です。
 
 2. **アカウント名の確認**
 
-    ```powershell
-    $Env:USERNAME
-    ```
+   ```powershell
+   $Env:USERNAME
+   ```
 
-    日本語が含まれる場合は英数字のみのアカウントを新規作成し、管理者権限を付与してください。
-    [ローカルユーザーまたは管理者アカウントを作成する方法](https://support.microsoft.com/ja-jp/windows/create-a-local-user-or-administrator-account-in-windows-20f7d0d1-70f5-4102-9039-0a5a603b005e) を参照します。
+   日本語が含まれる場合は英数字のみのアカウントを新規作成し、管理者権限を付与してください。
+   [ローカルユーザーまたは管理者アカウントを作成する方法](https://support.microsoft.com/ja-jp/windows/create-a-local-user-or-administrator-account-in-windows-20f7d0d1-70f5-4102-9039-0a5a603b005e) を参照します。
 
 3. **winget が使えるか確認**
 
    以下をコピーしてPowerShellに張り付けてEnterを押してください。
 
-    ```powershell
-    winget -v
-    ```
+   ```powershell
+   winget -v
+   ```
 
    <img width="680" height="107" alt="image" src="https://github.com/user-attachments/assets/597d1741-0bbf-4fa8-b0f3-323ae495c444" />
 
-
-    バージョン番号が表示されれば利用できます。何も出ない場合、エラーが出る場合はwingetが使えないので、
+   バージョン番号が表示されれば利用できます。何も出ない場合、エラーが出る場合はwingetが使えないので、
 
 ## 2. rig のインストール
 
-   同様に以下をコピーしてPowerShellに張り付けてEnterを押してください。
+同様に以下をコピーしてPowerShellに張り付けてEnterを押してください。
 
 ```powershell
 winget install -e Posit.rig
@@ -60,13 +59,13 @@ winget install -e Posit.rig
 
    <img width="1439" height="180" alt="image" src="https://github.com/user-attachments/assets/549d7bba-c2eb-4641-b610-4597f0e81f3d" />
 
-   この画面が出てきたらYを入力しEnter
+この画面が出てきたらYを入力しEnter
 
    <img width="1108" height="226" alt="image" src="https://github.com/user-attachments/assets/e2243e0b-421e-4731-bdcb-3ef8d29af32d" />
 
-   インストールが完了したら **PowerShell を一度閉じ**、再度管理者として開きます。
+インストールが完了したら **PowerShell を一度閉じ**、再度管理者として開きます。
 
-   一度閉じないと以降のコードを入力しても反応しない場合があります。
+一度閉じないと以降のコードを入力しても反応しない場合があります。
 
 ## 3. rig が入ったか確認
 
@@ -76,7 +75,7 @@ rig --version
 
    <img width="495" height="57" alt="image" src="https://github.com/user-attachments/assets/b9a510c8-8d51-4111-b298-cde9c63e55a4" />
 
-   バージョン番号が表示されれば成功です。
+バージョン番号が表示されれば成功です。
 
 ## 4. 最新の R をインストール
 
@@ -84,24 +83,23 @@ rig --version
 rig add release
 ```
 
-   `release` は「一番新しい安定版」を意味します。通常はこれだけで十分です。インストールが終わるまで待ちます。
+`release` は「一番新しい安定版」を意味します。通常はこれだけで十分です。インストールが終わるまで待ちます。
 
    <img width="980" height="337" alt="image" src="https://github.com/user-attachments/assets/296a65cc-e650-41c6-97b7-0df5475a8777" />
 
-   上記のような画面になり、一番下に`＞`が出るようになればインストール完了です。
+上記のような画面になり、一番下に`＞`が出るようになればインストール完了です。
 
-   基本的には`release`で大丈夫ですが、*もし意図的に特定のバージョンを入れたい場合だけ* 次のようにバージョンを指定します。
+基本的には`release`で大丈夫ですが、_もし意図的に特定のバージョンを入れたい場合だけ_ 次のようにバージョンを指定します。
 
 ```powershell
 rig add 4.4.3
 ```
 
-   もしrigでインストールできるバージョンを知りたい場合は以下を入力します(基本的には不要です)
+もしrigでインストールできるバージョンを知りたい場合は以下を入力します(基本的には不要です)
 
- ```bash
-    rig available
- ```
-
+```bash
+   rig available
+```
 
 ## 5. Rtools のインストール
 

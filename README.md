@@ -15,26 +15,31 @@
 ## Windows
 
 ### [RStudio サイトからのインストール](windows-rstudio.md)
+
 もっとも一般的な方法です。RStudio のサイトから R・Rtools・RStudio を順番にインストールします。迷ったらまずはこの手順で大丈夫です。
 ただ確認事項も多く、次のwingetを使った方がより早く簡単にインストールができます。
 
 ### [winget で簡単インストール](windows-winget.md)
+
 上記よりも早く簡単にインストールしたい方向けです。Windows で **winget** が使える環境なら、PowerShell に数行貼り付けるだけで、半自動的に自分のパソコン環境に合った R・Rtools・RStudio をインストールできます。
 
 ### [rig で複数バージョンを管理](windows-rig.md)
+
 複数の R バージョンを切り替えたい方向けです。まず winget で rig をインストールし、rig を使い R と Rtoolsをインストールします。複数の R バージョンを切り替えられます。RStudioは winget でインストールします。
 
 ## macOS
 
 ### [RStudio サイトからのインストール](mac-rstudio.md)
+
 もっとも一般的な方法です。RStudio のサイトから R と RStudio を順番にインストールします。迷ったらまずはこの手順で大丈夫です。
 
 ### [rig で複数バージョンを管理](mac-rig.md)
+
 複数の R バージョンを切り替えたい方向けです。先にrig をインストールし、rigを使い R をインストールします。複数の R バージョンを切り替えられます。
 
 ### [Homebrew でインストール](mac-homebrew.md)
-既にHomebrew を利用している方向けです。Homebrew で rig をインストールし、rig で R をインストールします。RStudioもHomebrewでインストールします。
 
+既にHomebrew を利用している方向けです。Homebrew で rig をインストールし、rig で R をインストールします。RStudioもHomebrewでインストールします。
 
 どの手順でも最後に RStudio を起動し、必要なパッケージをインストールするところまで案内しています。
 

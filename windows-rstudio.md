@@ -110,10 +110,20 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
    ダウンロードしたインストーラーはゴミ箱に捨ててOK
    
 4. 前のページに戻り **Rtools** を選び、インストールした R のバージョンをクリックします。
+
+   <img width="219" height="112" alt="image" src="https://github.com/user-attachments/assets/65f671b5-d14c-4a5d-abb4-76517daf4be8" />
+
+<img width="711" height="217" alt="image" src="https://github.com/user-attachments/assets/b6fc2fe5-a390-4641-8fa3-3a1a8e6da3af" />
+
+
+    - ダウンロードしたRに対応したRtoolsのバージョンを選択します。
     - ページの中ほどに「Rtools45 may be installed from the Rtools45 installer or 64-bit ARM Rtools45 installer. It is recommended to use the defaults, including the default installation location of C:\rtools45.」のような記載があるので、先ほど `$Env:PROCESSOR_ARCHITECTURE` で確認した結果に合わせて `Rtools45 installer` (AMD64) か `64-bit ARM Rtools45 installer` (ARM64) のどちらかを選びます。ここでの `45` は R のバージョンによって変わることがあります。
     - Rtools のダウンロードは容量が大きいため、回線や PC によってはダウンロード・インストールに 10 分ほどかかることがあります。
-5. ダウンロードした Rtools のインストーラを起動し、案内に従って「Next」を押し続け、最後に「Finish」で閉じます。
-6. 再度 RStudio のダウンロードページに戻り、**RStudio** の Windows 版をダウンロードしてインストールします。
+
+
+
+4. ダウンロードした Rtools のインストーラを起動し、案内に従って「Next」を押し続け、最後に「Finish」で閉じます。
+5. 再度 RStudio のダウンロードページに戻り、**RStudio** の Windows 版をダウンロードしてインストールします。
    - こちらも基本的に「Next」を押し続け、最後に「Finish」で閉じれば大丈夫です。
 
 ## 5. RStudio の初期設定とパッケージのインストール

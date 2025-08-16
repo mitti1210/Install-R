@@ -21,8 +21,6 @@ PowerShell の開き方やコマンドの貼り付け方から丁寧に説明し
 
 ## 1. 前提条件の確認
 
-<img width="680" height="107" alt="image" src="https://github.com/user-attachments/assets/a9870985-42ce-4dcd-8a9a-06dc23ffc570" />
-
 1. **winget が使えるか確認**
 
    以下をコピーしPowerShellに張り付けてEnterを押してください。
@@ -30,6 +28,8 @@ PowerShell の開き方やコマンドの貼り付け方から丁寧に説明し
     ```powershell
     winget -v
     ```
+
+   <img width="680" height="107" alt="image" src="https://github.com/user-attachments/assets/a9870985-42ce-4dcd-8a9a-06dc23ffc570" />
 
    バージョン番号が表示されれば利用できます。
    表示されなければwingetを使うことはできないので

@@ -49,7 +49,11 @@ PowerShell の開き方やコマンドの貼り付け方から丁寧に説明し
 winget install Posit.rig
 ```
 
-インストールが完了したら PowerShell を一度閉じ、再度管理者として開きます。
+   <img width="1439" height="180" alt="image" src="https://github.com/user-attachments/assets/549d7bba-c2eb-4641-b610-4597f0e81f3d" />
+
+   この画面が出てきたらYを入力しEnter
+
+   インストールが完了したら PowerShell を一度閉じ、再度管理者として開きます。
 
 ## 3. rig が入ったか確認
 

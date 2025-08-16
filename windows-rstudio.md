@@ -63,14 +63,6 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
 6. 再度 RStudio のダウンロードページに戻り、**RStudio** の Windows 版をダウンロードしてインストールします。
    - こちらも基本的に「Next」を押し続け、最後に「Finish」で閉じれば大丈夫です。
 
-## 5. パッケージのインストール
+## 5. RStudio の初期設定とパッケージのインストール
 
-1. スタートメニューから RStudio を開きます。
-2. 画面下部の「Console」と書かれた白い場所に次の2行を順番に貼り付け、Enter を押します。
-
-```r
-install.packages("pacman")
-pacman::p_load(skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone)
-```
-
-これで授業で使う R の準備は完了です。
+RStudio の初期設定や必要なパッケージの導入については [RStudioインストール後の準備について](rstudio-post-install.md) を参照してください。

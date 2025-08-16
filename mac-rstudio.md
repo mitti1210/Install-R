@@ -72,14 +72,6 @@ uname -m
 <img width="496" height="327" alt="image" src="https://github.com/user-attachments/assets/1071ae0c-391e-4241-9954-b3bd31f2c2e2" style="border: 1px solid #000;" />
 
 
-## 4. RStudio で必要なパッケージを入れる
+## 4. RStudio の初期設定とパッケージのインストール
 
-1. 「アプリケーション」フォルダから RStudio を開きます。
-2. 画面下部の「Console」と書かれた白い場所に次の2行を順番に貼り付け、Enter を押します。
-
-```r
-install.packages("pacman")
-pacman::p_load(skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone)
-```
-
-これで授業で使う R の準備は完了です。
+RStudio の初期設定や必要なパッケージの導入については [RStudioインストール後の準備について](rstudio-post-install.md) を参照してください。

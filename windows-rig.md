@@ -104,16 +104,6 @@ winget install -e Posit.RStudio
 
 `-e` は完全一致検索のオプションです。
 
-## 9. RStudio で必要なパッケージを入れる
+## 9. RStudio の初期設定とパッケージのインストール
 
-1. スタートメニューから RStudio を開きます。
-2. 画面下部の「Console」と書かれた白い場所に次の2行を順番に貼り付け、Enter を押します。
-
-```r
-install.packages("pacman")
-pacman::p_load(skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone)
-```
-
-ここでは `pacman::p_load` を使っていますが、`pak` パッケージを入れて `pak::pak()` でインストールしても構いません。
-
-これで授業で使う R の準備は完了です。
+RStudio の初期設定や必要なパッケージの導入については [RStudioインストール後の準備について](rstudio-post-install.md) を参照してください。

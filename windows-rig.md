@@ -53,7 +53,7 @@ winget install Posit.rig
 
    この画面が出てきたらYを入力しEnter
 
-   インストールが完了したら PowerShell を一度閉じ、再度管理者として開きます。
+   インストールが完了したら **PowerShell を一度閉じ**、再度管理者として開きます。
 
 ## 3. rig が入ったか確認
 

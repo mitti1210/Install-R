@@ -22,6 +22,8 @@ RStudio のサイトから R・Rtools・RStudio を順番に入れる、もっ�
 
 ## 1. アカウントの確認
 
+<img width="515" height="275" alt="image" src="https://github.com/user-attachments/assets/8f629e1f-a645-4d27-8da2-1fa0f7c2363e" />
+
 1. PowerShell で次のコマンドを実行し、表示された名前を確認します。
 
 ```powershell

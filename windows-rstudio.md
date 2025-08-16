@@ -19,6 +19,12 @@ RStudio のサイトから R・Rtools・RStudio を順番に入れる、もっ�
 $Env:USERNAME
 ```
 
+2. 続けて以下を実行し、`AMD64` か `ARM64` が表示された方を控えておきます。後で Rtools を選ぶときに使います。
+
+```powershell
+$Env:PROCESSOR_ARCHITECTURE
+```
+
 日本語が含まれる場合は英数字のみのアカウントを新規作成し、管理者権限を付与してください。\\
 [ローカルユーザーまたは管理者アカウントを作成する方法](https://support.microsoft.com/ja-jp/windows/create-a-local-user-or-administrator-account-in-windows-20f7d0d1-70f5-4102-9039-0a5a603b005e) を参照します。
 
@@ -42,10 +48,15 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
 ## 4. R / Rtools / RStudio のインストール
 
 1. ブラウザで [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) を開きます。\\
-2. ページ内の `Download R for Windows` をクリックし、ダウンロードした `R-*-win.exe` を起動して R をインストールします。\\
-3. 同じページから `Rtools` をダウンロードしてインストールします。\\
-4. さらに `RStudio` もダウンロードしてインストールします。\\
-   - それぞれ基本的に「Next」を押し続け、最後に「Finish」で閉じれば大丈夫です。
+2. ページ内の **Download R for Windows** をクリックし、表示された CRAN のページで **base** を選びます。\\
+3. 上にある **Download R-x.y.z for Windows** のようなリンクからインストーラ (`R-x.y.z-win.exe`) をダウンロードし、起動します。バージョン番号 (`x.y.z`) は最新のものに置き換わります。\\
+    - インストーラでは案内に従って「Next」を押し、ライセンスに同意し、インストール場所もデフォルトのままで構いません。最後に「Finish」で閉じます。\\
+4. 前のページに戻り **Rtools** を選び、インストールした R のバージョンをクリックします。\\
+    - ページの中ほどに「Rtools45 may be installed from the Rtools45 installer or 64-bit ARM Rtools45 installer. It is recommended to use the defaults, including the default installation location of C:\rtools45.」のような記載があるので、先ほど `$Env:PROCESSOR_ARCHITECTURE` で確認した結果に合わせて `Rtools45 installer` (AMD64) か `64-bit ARM Rtools45 installer` (ARM64) のどちらかを選びます。ここでの `45` は R のバージョンによって変わることがあります。\\
+    - Rtools のダウンロードは容量が大きいため、回線や PC によってはダウンロード・インストールに 10 分ほどかかることがあります。\\
+5. ダウンロードした Rtools のインストーラを起動し、案内に従って「Next」を押し続け、最後に「Finish」で閉じます。\\
+6. 再度 RStudio のダウンロードページに戻り、**RStudio** の Windows 版をダウンロードしてインストールします。\\
+   - こちらも基本的に「Next」を押し続け、最後に「Finish」で閉じれば大丈夫です。
 
 ## 5. パッケージのインストール
 

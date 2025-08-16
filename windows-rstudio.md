@@ -59,7 +59,10 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
 ## 4. R / Rtools / RStudio のインストール
 
 1. ブラウザで [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) を開きます。
-2. ページ内の **Download R for Windows** をクリックし、表示された CRAN のページで **base** を選びます。
+2. ページ内の **Download AND INSTALL R** をクリックし、表示された CRAN のページで **base** を選びます。
+
+<img width="449" height="98" alt="image" src="https://github.com/user-attachments/assets/7b8eda05-b934-4948-b539-3eabe7471e86" />
+
 3. 上にある **Download R-x.y.z for Windows** のようなリンクからインストーラ (`R-x.y.z-win.exe`) をダウンロードし、起動します。バージョン番号 (`x.y.z`) は最新のものに置き換わります。
     - インストーラでは案内に従って「Next」を押し、ライセンスに同意し、インストール場所もデフォルトのままで構いません。最後に「Finish」で閉じます。
 4. 前のページに戻り **Rtools** を選び、インストールした R のバージョンをクリックします。

@@ -60,14 +60,17 @@ uname -m
 4. [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) に戻り、 **RStudio** の `Download` ボタンをクリックし、`RStudio.dmg` をダウンロードします。
 <img width="313" height="175" alt="image" src="https://github.com/user-attachments/assets/00409251-9fe1-47ab-a014-07433421628c" style="border: 1px solid #000;" />
 
-5. ダウンロードした `.dmg` ファイルをダブルクリックし、表示されるウインドウから **RStudio** を **アプリケーション** フォルダにドラッグします。
+5. ダウンロードした `.dmg` ファイルをダブルクリックし、表示されるウインドウから **RStudio** を **アプリケーション** フォルダにドラッグします。その後ディスクイメージをイジェクトしてください。
 <img width="140" height="56" alt="image" src="https://github.com/user-attachments/assets/9816a752-b003-4536-8140-58ae54bce47f" style="border: 1px solid #000;" />
+
+<img width="125" height="32" alt="image" src="https://github.com/user-attachments/assets/d7af3fc8-cb49-4ad3-a8da-924ded90b3f0" />
+
 
 ## 3. XQuartz をインストール（必要な人のみ）
 
-**R Commander や EZR、3D グラフを使いたい方向け**の追加作業です。X11 を利用するこれらの機能には **XQuartz 2.8.5 以降** が必要です。
+**R Commander や EZR、3D グラフを使いたい方向け**の追加作業です。X11 を利用するこれらの機能には **XQuartz** が必要です。
 [CRAN の macOS 用ページ](https://cran.rstudio.com/bin/macosx/) にリンクがあります。macOS をメジャーバージョンアップしたら XQuartz も再インストールしてください。
-<https://www.xquartz.org> からダウンロードし、通常のアプリと同じようにインストールします。
+通常のアプリと同じようにインストールします。
 
 <img width="496" height="327" alt="image" src="https://github.com/user-attachments/assets/1071ae0c-391e-4241-9954-b3bd31f2c2e2" style="border: 1px solid #000;" />
 

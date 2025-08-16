@@ -38,6 +38,20 @@
 
 どの手順でも最後に RStudio を起動し、必要なパッケージをインストールするところまで案内しています。
 
+## 参考サイト
+
+- [R・RStudioインストール手順書](https://dataviz-r-epi.netlify.app/resources/R%E3%83%BBRStudio%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%89%8B%E9%A0%86%E6%9B%B8.pdf#page=18.08)
+- [RとRStudioのインストール方法の解説（macOS編/Windows編）](https://yukiyanai.github.io/jp/resources/)
+- [RStudioでデフォルトライブラリのパスに日本語が含まれているときの対処法](https://ameblo.jp/tufui57/entry-12529844554.html)
+- [RStudioのダイアログボックスで文字化けが発生した際の対応](https://qiita.com/Maki-Daisuke/items/0378626c9bf9971f3822)
+- [RStudioインストールのメモ](https://note.com/toshi_matsuura/n/n487eecff9632)
+- [R と RStudio のインストール手順（楽天ブログ）](https://plaza.rakuten.co.jp/techmfg/diary/201907110000/)
+- [R/RStudio インストール時のよくある問題](https://www.fbc.keio.ac.jp/~shimpo/r_rstudio_problems.html)
+- [Windows に R・RStudio・Rtools をインストールする方法](https://www.kkaneko.jp/tools/win/install.html)
+- [rig と pak で R 環境を構築する（2023 年版）](https://zenn.dev/eitsupi/articles/rig-pak-p3m-2023)
+- [rig: Install and Manage Multiple Versions of R](https://github.com/r-lib/rig)
+- [Windows で R・RStudio をセットアップするメモ](https://qiita.com/Mitz-TADA/items/499feff855bccc9cb022)
+
 ---
 
 ## ライセンスと免責事項

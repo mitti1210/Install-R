@@ -21,33 +21,16 @@ PowerShell の開き方やコマンドの貼り付け方から丁寧に説明し
 
 ## 1. 前提条件の確認
 
-<img width="695" height="401" alt="image" src="https://github.com/user-attachments/assets/9b5e495e-0c4f-4129-9c5e-d16ee3dd4fa3" />
+<img width="680" height="107" alt="image" src="https://github.com/user-attachments/assets/a9870985-42ce-4dcd-8a9a-06dc23ffc570" />
 
-
-1. **Windows のバージョン確認**
-
-    ```powershell
-    winver
-    ```
-
-    画面に Windows のバージョンが表示されます。Windows 10 以上であれば OK です。
-
-2. **アカウント名の確認**
-
-    ```powershell
-    $Env:USERNAME
-    ```
-
-    日本語が含まれる場合は英数字のみのアカウントを新規作成し、管理者権限を付与してください。
-    [ローカルユーザーまたは管理者アカウントを作成する方法](https://support.microsoft.com/ja-jp/windows/create-a-local-user-or-administrator-account-in-windows-20f7d0d1-70f5-4102-9039-0a5a603b005e) を参照します。
-
-3. **winget が使えるか確認**
+1. **winget が使えるか確認**
 
     ```powershell
     winget -v
     ```
 
-    バージョン番号が表示されれば利用できます。
+   バージョン番号が表示されれば利用できます。
+   表示されなければwingetを使うことはできないので
 
 ## 2. R のインストール
 

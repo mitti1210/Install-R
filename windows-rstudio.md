@@ -63,7 +63,7 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
 
    <img width="300" height="74" alt="image" src="https://github.com/user-attachments/assets/34acf8db-edb0-4421-ba28-6f8fc3875970" />
 
-3. 上にある **Download R-x.y.z for Windows** のようなリンクからインストーラ (`R-x.y.z-win.exe`) をダウンロードし、起動します。バージョン番号 (`x.y.z`) は最新のものに置き換わります。
+3. 上にある **Download R-x.y.z for Windows** のようなリンクからインストーラ (`R-x.x.x-win.exe`) をダウンロードし、起動します。バージョン番号 (`x.x.x`) は最新のものに置き換わります。
 
    <img width="496" height="87" alt="image" src="https://github.com/user-attachments/assets/c23d267c-c193-467f-ba1d-550361bb7f00" />
 

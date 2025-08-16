@@ -105,11 +105,15 @@ rig add 4.4.3
 
 ## 5. Rtools のインストール
 
-開発に必要なツールを入れます。インターネット環境によっては10分ほど時間がかかります。
+開発に必要なツールを入れます。以下をコピーしてPowerShellに貼り付けてEnterを押します。
 
 ```powershell
 rig system rtools add
 ```
+
+<img width="193" height="19" alt="image" src="https://github.com/user-attachments/assets/15c6fe01-71b5-4fe5-9ebb-13540b2f3606" />
+
+インターネット環境によっては10分ほど時間がかかります。画面の一番下に上記のような`>`が出るまでは待ちます。
 
 ## 6. インストール済み R を確認
 

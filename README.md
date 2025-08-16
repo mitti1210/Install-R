@@ -40,7 +40,7 @@
 
 ## 参考サイト
 
-- [R・RStudioインストール手順書](https://dataviz-r-epi.netlify.app/resources/R%E3%83%BBRStudio%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%89%8B%E9%A0%86%E6%9B%B8.pdf#page=18.08)
+- [R・RStudioインストール手順書](https://dataviz-r-epi.netlify.app/resources/R%E3%83%BBRStudio%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E6%89%8B%E9%A0%86%E6%9B%B8.pdf#page=18.08) — 日本疫学会プレセミナー2023「Rで実践！美しい Figure & Table を作成しよう」
 - [RとRStudioのインストール方法の解説（macOS編/Windows編）](https://yukiyanai.github.io/jp/resources/)
 - [RStudioでデフォルトライブラリのパスに日本語が含まれているときの対処法](https://ameblo.jp/tufui57/entry-12529844554.html)
 - [RStudioのダイアログボックスで文字化けが発生した際の対応](https://qiita.com/Maki-Daisuke/items/0378626c9bf9971f3822)

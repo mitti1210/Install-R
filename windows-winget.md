@@ -59,6 +59,8 @@ winget install -e RProject.R
 
 この画面が出た場合はYと入力しEnter
 
+<img width="1038" height="222" alt="image" src="https://github.com/user-attachments/assets/974d4114-75fb-48e2-a5e5-d41ad96c01fd" />
+
 後は待つだけで R 本体がインストールされます。
 
 ## 3. Rtools のインストール

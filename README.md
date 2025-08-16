@@ -42,19 +42,19 @@
 
 ## ライセンスと免責事項
 
-- **文章（解説・ガイド）**  
-  このリポジトリの文章・図表などのドキュメントは  
-  [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
+- **文章（解説・ガイド）**
+  このリポジトリの文章・図表などのドキュメントは
+  [Creative Commons Attribution 4.0 International (CC BY 4.0)](./LICENSE-DOCS)
   のもとで公開されています。
 
-- **コード（R / Bash スクリプト）**  
-  このリポジトリ内のコードは [MIT License](./LICENSE-CODE) で公開されています。  
+- **コード（R / Bash スクリプト）**
+  このリポジトリ内のコードは [MIT License](./LICENSE-CODE) で公開されています。
 
 ---
 
 ## 免責事項
 
-- このリポジトリは MIT ライセンスで提供されています。詳しくは [LICENSE](LICENSE) をご覧ください。
+- このリポジトリは文章とコードで異なるライセンスが適用されています。詳しくは [LICENSE](LICENSE) をご覧ください。
 - 環境は一人ひとり異なるため、手順通りに進めてもトラブルが発生することがあります。
 - ここで紹介するソフトウェアはすべてフリーソフトです。利用は自己責任で行ってください。
 - トラブルが起きた場合は生成 AI や検索エンジンを活用すると解決できることが多いです。

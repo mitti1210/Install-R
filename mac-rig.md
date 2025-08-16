@@ -107,7 +107,7 @@ uname -m
 ブラウザで [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) を開きます。
 
 1. `Download RStudio for Mac` をクリックし、`RStudio.dmg` をダウンロードします。
-2. 5. ダウンロードした `.dmg` ファイルをダブルクリックし、表示されるウインドウから **RStudio** を **アプリケーション** フォルダにドラッグします。その後ディスクイメージをイジェクトしてください。
+2. ダウンロードした `.dmg` ファイルをダブルクリックし、表示されるウインドウから **RStudio** を **アプリケーション** フォルダにドラッグします。その後ディスクイメージをイジェクトしてください。
 
 <img width="140" height="56" alt="image" src="https://github.com/user-attachments/assets/9816a752-b003-4536-8140-58ae54bce47f" style="border: 1px solid #000;" />
 

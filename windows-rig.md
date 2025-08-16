@@ -18,36 +18,18 @@ PowerShell の開き方やコマンドの貼り付け方から丁寧に説明し
 
 ## 1. 前提条件の確認
 
-1. **Windows のバージョン確認**
+1. **winget が使えるか確認**
 
-   以下をコピーしてPowerShellに張り付けてEnterを押してください。
-
-   ```powershell
-   winver
-   ```
-
-   画面に Windows のバージョンが表示されます。Windows 10 以上であれば OK です。
-
-2. **アカウント名の確認**
-
-   ```powershell
-   $Env:USERNAME
-   ```
-
-   英数字であれば問題ありません。もし日本語が含まれる場合は英数字のみのアカウントを新規作成し、管理者権限を付与してください。
-   [ローカルユーザーまたは管理者アカウントを作成する方法]([https://support.microsoft.com/ja-jp/windows/create-a-local-user-or-administrator-account-in-windows-20f7d0d1-70f5-4102-9039-0a5a603b005e](https://support.microsoft.com/ja-jp/windows/windows-%E3%81%A7%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC-%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%82%92%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B-104dc19f-6430-4b49-6a2b-e4dbd1dcdf32)) を参照します。
-
-3. **winget が使えるか確認**
-
-   以下をコピーしてPowerShellに張り付けてEnterを押してください。
+   以下をコピーしPowerShellに張り付けてEnterを押してください。
 
    ```powershell
    winget -v
    ```
 
-   <img width="680" height="107" alt="image" src="https://github.com/user-attachments/assets/597d1741-0bbf-4fa8-b0f3-323ae495c444" />
+   <img width="680" height="107" alt="image" src="https://github.com/user-attachments/assets/a9870985-42ce-4dcd-8a9a-06dc23ffc570" />
 
-   バージョン番号が表示されれば利用できます。何も出ない場合、エラーが出る場合はwingetが使えないので、
+   バージョン番号が表示されれば利用できます。
+   表示されなければwingetを使うことはできないので
 
 ## 2. rig のインストール
 

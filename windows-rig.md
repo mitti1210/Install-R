@@ -83,8 +83,9 @@ rig list
 
 1つだけ入っているならそのバージョンだけが表示されます。
 2つ以上入れた場合はここで一覧を確認できます。
+`rig` で入れた R だけが表示されるため、別の方法で入れた R は必要なら `rig add` で入れ直してください。
 
-## 7. 使う R のバージョンを切り替える
+## 7. 使う R のバージョンを切り替える（複数バージョンをインストールしている場合のみ）
 
 ```powershell
 rig default 4.4.3
@@ -110,5 +111,7 @@ winget install -e Posit.RStudio
 install.packages("pacman")
 pacman::p_load(skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone)
 ```
+
+ここでは `pacman::p_load` を使っていますが、`pak` パッケージを入れて `pak::pak()` でインストールしても構いません。
 
 これで授業で使う R の準備は完了です。

@@ -91,8 +91,9 @@ brew install rig
 
     1つだけ入っているならそのバージョンだけが表示されます。
     2つ以上入れた場合はここで一覧を確認できます。
+    `rig` で入れた R だけが表示されるため、別の方法で入れた R は必要なら `rig add` で入れ直してください。
 
-5. **使う R のバージョンを切り替える**
+5. **使う R のバージョンを切り替える（複数バージョンをインストールしている場合のみ）**
 
     ```bash
     rig default 4.4.3
@@ -101,7 +102,16 @@ brew install rig
     バージョンを複数入れているときだけ必要な操作です。
     1つしか入っていないなら何もしなくて大丈夫です。
 
-## 5. RStudio をインストールする
+## 5. XQuartz をインストール（必要な人のみ）
+
+**R Commander や EZR、3D グラフを使いたい方向け**の追加作業です。X11 を利用するこれらの機能には **XQuartz 2.8.5 以降** が必要です。
+[CRAN の macOS 用ページ](https://cran.rstudio.com/bin/macosx/) にもリンクがあります。macOS をメジャーバージョンアップしたら XQuartz も再インストールしてください。
+
+```bash
+brew install --cask xquartz
+```
+
+## 6. RStudio をインストールする
 
 **RStudio** は R を使いやすくするアプリです。Homebrew で入れます。
 
@@ -111,7 +121,7 @@ brew install --cask rstudio
 
 `--cask` は「通常のアプリとしてインストールする」という意味です。
 
-## 6. RStudio で必要なパッケージを入れる
+## 7. RStudio で必要なパッケージを入れる
 
 1. 「アプリケーション」フォルダから RStudio を開きます。
 2. 画面下部の「Console」と書かれた白い場所に次の2行を順番に貼り付け、Enter を押します。
@@ -120,6 +130,8 @@ brew install --cask rstudio
 install.packages("pacman")
 pacman::p_load(skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone)
 ```
+
+ここでは `pacman::p_load` を使っていますが、`pak` パッケージを入れて `pak::pak()` でインストールしても構いません。
 
 これで授業で使う R の準備は完了です。
 

@@ -70,8 +70,9 @@ rig list
 
 1つだけ入っているならそのバージョンだけが表示されます。
 2つ以上入れた場合はここで一覧を確認できます。
+`rig` で入れた R だけが表示されるため、別の方法で入れた R は必要なら `rig add` で入れ直してください。
 
-## 7. 使う R のバージョンを切り替える
+## 7. 使う R のバージョンを切り替える（複数バージョンをインストールしている場合のみ）
 
 ```bash
 rig default 4.4.3
@@ -80,7 +81,13 @@ rig default 4.4.3
 バージョンを複数入れているときだけ必要な操作です。
 1つしか入っていないなら何もしなくて大丈夫です。
 
-## 8. RStudio をインストール
+## 8. XQuartz をインストール（必要な人のみ）
+
+**R Commander や EZR、3D グラフを使いたい方向け**の追加作業です。X11 を利用するこれらの機能には **XQuartz 2.8.5 以降** が必要です。
+[CRAN の macOS 用ページ](https://cran.rstudio.com/bin/macosx/) にリンクがあります。macOS をメジャーバージョンアップしたら XQuartz も再インストールしてください。
+<https://www.xquartz.org> からダウンロードし、通常のアプリと同じようにインストールします。
+
+## 9. RStudio をインストール
 
 **RStudio** は R を使いやすくするアプリです。
 ブラウザで [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) を開きます。
@@ -88,7 +95,7 @@ rig default 4.4.3
 1. `Download RStudio for Mac` をクリックし、`RStudio.dmg` をダウンロードします。
 2. ダウンロードした `.dmg` ファイルをダブルクリックし、表示されるウインドウから **RStudio** を **アプリケーション** フォルダにドラッグします。
 
-## 9. RStudio で必要なパッケージを入れる
+## 10. RStudio で必要なパッケージを入れる
 
 1. 「アプリケーション」フォルダから RStudio を開きます。
 2. 画面下部の「Console」と書かれた白い場所に次の2行を順番に貼り付け、Enter を押します。
@@ -97,5 +104,7 @@ rig default 4.4.3
 install.packages("pacman")
 pacman::p_load(skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone)
 ```
+
+ここでは `pacman::p_load` を使っていますが、`pak` パッケージを入れて `pak::pak()` でインストールしても構いません。
 
 これで授業で使う R の準備は完了です。

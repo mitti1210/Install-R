@@ -43,6 +43,10 @@ install.packages("pacman")
 pacman::p_load(skimr, comorbidity, broom, tidyverse, here, openxlsx, tableone)
 ```
 
-ここでは `pacman::p_load` を使っていますが、`pak` パッケージを入れて `pak::pak()` でインストールしても構いません。
+ここでは `pacman::p_load` を使っていますが、rigを使いRをインストールした方は`pak` パッケージの `pak::pak()` でインストールするとより高速に安全にインストールができます。
 
-これで授業で使う R の準備は完了です。
+```r
+pak::pak("skimr", "comorbidity", "broom", "tidyverse", "here", "openxlsx", "tableone", "gtusmmary")
+```
+
+これでセミナーで使う R の準備は完了です。

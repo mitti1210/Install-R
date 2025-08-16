@@ -11,7 +11,7 @@ PowerShell の開き方やコマンドの貼り付け方から丁寧に説明し
 2. 検索欄に `powershell` と入力します。
 3. 表示された **Windows PowerShell** を右クリックし、「**管理者として実行**」を選びます。
 
-<img width="364" height="300" alt="image" src="https://github.com/user-attachments/assets/423cacf4-09ac-4696-9c76-9ef2522bc7a8" />
+<img width="240" height="200" alt="image" src="https://github.com/user-attachments/assets/423cacf4-09ac-4696-9c76-9ef2522bc7a8" />
 
 4. 「このアプリがデバイスに変更を加えることを許可しますか?」と出たら **はい** をクリックします。
 5. 黒い画面が開き、ここに文字を入力します。これを **PowerShell（コマンドライン）** と呼びます。

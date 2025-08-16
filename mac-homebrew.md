@@ -23,6 +23,9 @@
 uname -m
 ```
 
+<img width="526" height="125" alt="image" src="https://github.com/user-attachments/assets/0e9aaa27-a9d1-4553-9f75-5488af376998" />
+
+
 `arm64` なら Apple シリコン、`x86_64` なら Intel です。後の手順で迷ったときの目印になります。
 
 ## 2. Homebrew の確認
@@ -33,7 +36,6 @@ uname -m
 ```bash
 brew --version
 ```
-
 
 バージョン番号が表示されれば OK です。
 何も表示されない場合は、ブラウザで [Homebrew の公式サイト](https://brew.sh/) を開き、
@@ -52,6 +54,9 @@ brew install rig
 - `brew tap` は Homebrew に新しいソフトの倉庫を追加する合図です。初回だけで大丈夫です。
 - `brew install rig` で rig 本体を入れます。
 
+<img width="561" height="65" alt="image" src="https://github.com/user-attachments/assets/992c65e7-f045-47f3-939b-7b1ffd9fe888" />
+
+
 ## 4. rig で R をインストールする
 
 ここからは Homebrew ではなく rig を使います。
@@ -61,6 +66,8 @@ brew install rig
     ```bash
     rig --version
     ```
+
+<img width="519" height="46" alt="image" src="https://github.com/user-attachments/assets/f3e8952d-ac02-4b3c-a8ad-29a167f84556" />
 
     バージョン番号が出れば成功です。
 
@@ -91,16 +98,20 @@ brew install rig
     rig list
     ```
 
+    <img width="444" height="112" alt="image" src="https://github.com/user-attachments/assets/f763d83c-e04b-412b-9362-dd3b13387e36" />
+
     1つだけ入っているならそのバージョンだけが表示されます。
     2つ以上入れた場合はここで一覧を確認できます。
+   *がついているのが現在使っているバージョン(default)です。今は`R4.4.3`になっています。
     `rig` で入れた R だけが表示されるため、別の方法で入れた R は必要なら `rig add` で入れ直してください。
 
-5. **使う R のバージョンを切り替える（複数バージョンをインストールしている場合のみ）**
+6. **使う R のバージョンを切り替える（複数バージョンをインストールしている場合のみ）**
 
     ```bash
-    rig default 4.4.3
+    rig default 4.5.1
     ```
 
+    上記入力すると先程defaultだった`R4.4.3`から`R4.5.1`に切り替わります(rig listで確認可能)
     バージョンを複数入れているときだけ必要な操作です。
     1つしか入っていないなら何もしなくて大丈夫です。
 
@@ -120,8 +131,6 @@ brew install --cask xquartz
 ```bash
 brew install --cask rstudio
 ```
-
-`--cask` は「通常のアプリとしてインストールする」という意味です。
 
 ## 7. RStudio で必要なパッケージを入れる
 

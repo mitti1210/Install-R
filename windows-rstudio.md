@@ -61,11 +61,11 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
 1. ブラウザで [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) を開きます。
 2. ページ内の **Download AND INSTALL R** をクリックし、表示された CRAN のページで **base** を選びます。
 
-<img width="300" height="74" alt="image" src="https://github.com/user-attachments/assets/34acf8db-edb0-4421-ba28-6f8fc3875970" />
+   <img width="300" height="74" alt="image" src="https://github.com/user-attachments/assets/34acf8db-edb0-4421-ba28-6f8fc3875970" />
 
 3. 上にある **Download R-x.y.z for Windows** のようなリンクからインストーラ (`R-x.y.z-win.exe`) をダウンロードし、起動します。バージョン番号 (`x.y.z`) は最新のものに置き換わります。
 
-<img width="496" height="87" alt="image" src="https://github.com/user-attachments/assets/c23d267c-c193-467f-ba1d-550361bb7f00" />
+   <img width="496" height="87" alt="image" src="https://github.com/user-attachments/assets/c23d267c-c193-467f-ba1d-550361bb7f00" />
 
    インストーラでは案内に従って「Next」を押し、ライセンスに同意し、インストール場所もデフォルトのままで構いません。最後に「Finish」で閉じます。
 
@@ -113,8 +113,9 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
 
    <img width="219" height="112" alt="image" src="https://github.com/user-attachments/assets/65f671b5-d14c-4a5d-abb4-76517daf4be8" />
 
-<img width="711" height="217" alt="image" src="https://github.com/user-attachments/assets/b6fc2fe5-a390-4641-8fa3-3a1a8e6da3af" />
+   <img width="711" height="217" alt="image" src="https://github.com/user-attachments/assets/b6fc2fe5-a390-4641-8fa3-3a1a8e6da3af" />
 
+   <img width="1464" height="195" alt="image" src="https://github.com/user-attachments/assets/be72309f-45db-49a1-a177-c7fd5fd3439e" />
 
     - ダウンロードしたRに対応したRtoolsのバージョンを選択します。
     - ページの中ほどに「Rtools45 may be installed from the Rtools45 installer or 64-bit ARM Rtools45 installer. It is recommended to use the defaults, including the default installation location of C:\rtools45.」のような記載があるので、先ほど `$Env:PROCESSOR_ARCHITECTURE` で確認した結果に合わせて `Rtools45 installer` (AMD64) か `64-bit ARM Rtools45 installer` (ARM64) のどちらかを選びます。ここでの `45` は R のバージョンによって変わることがあります。

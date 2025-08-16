@@ -35,8 +35,7 @@ $Env:USERNAME
 $Env:PROCESSOR_ARCHITECTURE
 ```
 
-日本語が含まれる場合は英数字のみのアカウントを新規作成し、管理者権限を付与してください。詳しい背景は [WindowsにおけるRインストールと日本語パス問題の変遷](windows-r-japanese-path-issues.md) を参照してください。
-[ローカルユーザーまたは管理者アカウントを作成する方法](https://support.microsoft.com/ja-jp/windows/create-a-local-user-or-administrator-account-in-windows-20f7d0d1-70f5-4102-9039-0a5a603b005e) を参照します。
+英数字であれば問題ありません。もし日本語が含まれる場合は英数字のみのアカウントを新規作成し、管理者権限を付与してください。[ローカルユーザーまたは管理者アカウントを作成する方法]([https://support.microsoft.com/ja-jp/windows/create-a-local-user-or-administrator-account-in-windows-20f7d0d1-70f5-4102-9039-0a5a603b005e](https://support.microsoft.com/ja-jp/windows/windows-%E3%81%A7%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC-%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%82%92%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B-104dc19f-6430-4b49-6a2b-e4dbd1dcdf32)) を参照します。
 
 ## 2. ライブラリ用フォルダの作成
 

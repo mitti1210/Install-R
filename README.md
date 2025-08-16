@@ -26,7 +26,7 @@
 
 ## macOS
 
-### [RStudio サイトからの簡単インストール](mac-rstudio.md)
+### [RStudio サイトからのインストール](mac-rstudio.md)
 もっとも一般的な方法です。RStudio のサイトから R と RStudio を順番にインストールします。迷ったらまずはこの手順で大丈夫です。
 
 ### [rig で複数バージョンを管理](mac-rig.md)

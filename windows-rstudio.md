@@ -121,10 +121,11 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
     - ページの中ほどに「Rtools45 may be installed from the Rtools45 installer or 64-bit ARM Rtools45 installer. It is recommended to use the defaults, including the default installation location of C:\rtools45.」のような記載があるので、先ほど `$Env:PROCESSOR_ARCHITECTURE` で確認した結果に合わせて `Rtools45 installer` (AMD64) か `64-bit ARM Rtools45 installer` (ARM64) のどちらかを選びます。ここでの `45` は R のバージョンによって変わることがあります。
     - Rtools のダウンロードは容量が大きいため、回線や PC によってはダウンロード・インストールに 10 分ほどかかることがあります。
 
+4. ダウンロードした Rtools のインストーラを起動し、案内に従って「次へ」を押し続け、最後に「完了」で閉じます。
+5. 再度 ブラウザで [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) を開き、**RStudio** の Windows 版をダウンロードしてインストールします。
 
+   
 
-4. ダウンロードした Rtools のインストーラを起動し、案内に従って「Next」を押し続け、最後に「Finish」で閉じます。
-5. 再度 RStudio のダウンロードページに戻り、**RStudio** の Windows 版をダウンロードしてインストールします。
    - こちらも基本的に「Next」を押し続け、最後に「Finish」で閉じれば大丈夫です。
 
 ## 5. RStudio の初期設定とパッケージのインストール

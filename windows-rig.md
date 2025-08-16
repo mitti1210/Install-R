@@ -20,6 +20,8 @@ PowerShell の開き方やコマンドの貼り付け方から丁寧に説明し
 
 1. **Windows のバージョン確認**
 
+   以下をコピーしてPowerShellに張り付けてEnterを押してください。
+
     ```powershell
     winver
     ```
@@ -37,23 +39,34 @@ PowerShell の開き方やコマンドの貼り付け方から丁寧に説明し
 
 3. **winget が使えるか確認**
 
+   以下をコピーしてPowerShellに張り付けてEnterを押してください。
+
     ```powershell
     winget -v
     ```
 
-    バージョン番号が表示されれば利用できます。
+   <img width="680" height="107" alt="image" src="https://github.com/user-attachments/assets/597d1741-0bbf-4fa8-b0f3-323ae495c444" />
+
+
+    バージョン番号が表示されれば利用できます。何も出ない場合、エラーが出る場合はwingetが使えないので、
 
 ## 2. rig のインストール
 
+   同様に以下をコピーしてPowerShellに張り付けてEnterを押してください。
+
 ```powershell
-winget install Posit.rig
+winget install -e Posit.rig
 ```
 
    <img width="1439" height="180" alt="image" src="https://github.com/user-attachments/assets/549d7bba-c2eb-4641-b610-4597f0e81f3d" />
 
    この画面が出てきたらYを入力しEnter
 
+   <img width="1108" height="226" alt="image" src="https://github.com/user-attachments/assets/e2243e0b-421e-4731-bdcb-3ef8d29af32d" />
+
    インストールが完了したら **PowerShell を一度閉じ**、再度管理者として開きます。
+
+   一度閉じないと以降のコードを入力しても反応しない場合があります。
 
 ## 3. rig が入ったか確認
 
@@ -61,7 +74,9 @@ winget install Posit.rig
 rig --version
 ```
 
-バージョン番号が表示されれば成功です。
+   <img width="495" height="57" alt="image" src="https://github.com/user-attachments/assets/b9a510c8-8d51-4111-b298-cde9c63e55a4" />
+
+   バージョン番号が表示されれば成功です。
 
 ## 4. 最新の R をインストール
 
@@ -69,16 +84,28 @@ rig --version
 rig add release
 ```
 
-`release` は「一番新しい安定版」を意味します。通常はこれだけで十分です。
-*もし特定のバージョンを入れたい場合だけ* 次のように数字を指定します。
+   `release` は「一番新しい安定版」を意味します。通常はこれだけで十分です。インストールが終わるまで待ちます。
+
+   <img width="1456" height="513" alt="image" src="https://github.com/user-attachments/assets/cce04674-1faa-4ab8-88bc-28f889abfb9d" />
+
+   上記のような画面になり、一番下に`＞`が出るようになればインストール完了です。
+
+   基本的には`release`で大丈夫ですが、*もし意図的に特定のバージョンを入れたい場合だけ* 次のようにバージョンを指定します。
 
 ```powershell
 rig add 4.4.3
 ```
 
+   もしrigでインストールできるバージョンを知りたい場合は以下を入力します(基本的には不要です)
+
+ ```bash
+    rig available
+ ```
+
+
 ## 5. Rtools のインストール
 
-開発に必要なツールを入れます。環境によっては時間がかかります。
+開発に必要なツールを入れます。インターネット環境によっては10分ほど時間がかかります。
 
 ```powershell
 rig system rtools add

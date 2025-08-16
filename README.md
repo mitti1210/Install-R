@@ -18,7 +18,7 @@
 もっとも一般的な方法です。RStudio のサイトから R・Rtools・RStudio を順番にインストールします。迷ったらまずはこの手順で大丈夫です。
 
 ### [winget での簡単インストール](windows-winget.md)
-**winget** が使える Windows 向けです。PowerShell に数行貼り付けるだけで R・Rtools・RStudio がまとめて入ります。
+上記よりも早く簡単にインストールしたい方向けです。Windows で **winget** が使える環境なら、PowerShell に数行貼り付けるだけで R・Rtools・RStudio がまとめて入ります。
 
 ### [rig で複数バージョンを管理](windows-rig.md)
 複数の R バージョンを切り替えたい方向けです。まず winget で rig を入れ、rig から R をインストールします。必要に応じてバージョンを変更できます。

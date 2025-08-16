@@ -22,7 +22,7 @@ RStudio のサイトから R と RStudio を順番に入れる、もっとも一
 uname -m
 ```
 
-<img width="525" height="74" alt="image" src="https://github.com/user-attachments/assets/6e2a916e-038b-4e6f-829b-fbedd3f00aeb" />
+<img width="525" height="74" alt="image" src="https://github.com/user-attachments/assets/4ea605f2-b5d1-4f56-ad72-a439455bc091" />
 
 
 `arm64` なら Apple シリコン、`x86_64` なら Intel です。後でダウンロードするファイルを選ぶ目印になります。

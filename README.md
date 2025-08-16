@@ -38,6 +38,20 @@
 
 どの手順でも最後に RStudio を起動し、必要なパッケージをインストールするところまで案内しています。
 
+---
+
+## ライセンスと免責事項
+
+- **文章（解説・ガイド）**  
+  このリポジトリの文章・図表などのドキュメントは  
+  [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)  
+  のもとで公開されています。
+
+- **コード（R / Bash スクリプト）**  
+  このリポジトリ内のコードは [MIT License](./LICENSE-CODE) で公開されています。  
+
+---
+
 ## 免責事項
 
 - このリポジトリは MIT ライセンスで提供されています。詳しくは [LICENSE](LICENSE) をご覧ください。

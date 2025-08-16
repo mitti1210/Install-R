@@ -36,19 +36,25 @@ uname -m
    - ファイル名に `arm64` があれば Apple シリコン用、`x86_64` があれば Intel 用です。
 
 3. ダウンロードした `.pkg` ファイルをダブルクリックし、画面の指示に従って R をインストールします。
+
 <img width="612" height="443" alt="image" src="https://github.com/user-attachments/assets/498f3dfd-b3b8-44a5-84bd-21723c042000" />
+
 続けるを選択
 
 <img width="612" height="443" alt="image" src="https://github.com/user-attachments/assets/7b39eb77-a4d3-4722-ad4c-63e25b6a7e6c" />
+
 続けるを選択
 
 <img width="612" height="443" alt="image" src="https://github.com/user-attachments/assets/c18477fb-8802-42c2-8de7-ae538ba52a6e" />
+
 続けるを選択
 
 <img width="612" height="443" alt="image" src="https://github.com/user-attachments/assets/c341f590-640a-455d-8b14-16cd335de39a" />
+
 同意する
 
 <img width="612" height="443" alt="image" src="https://github.com/user-attachments/assets/efcf5268-85a1-4b44-b607-97a79fc9b97b" />
+
 インストールを選択
 
 4. [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) に戻り、 **RStudio** の `Download` ボタンをクリックし、`RStudio.dmg` をダウンロードします。

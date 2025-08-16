@@ -55,7 +55,11 @@ PowerShell の開き方やコマンドの貼り付け方から丁寧に説明し
 winget install -e RProject.R
 ```
 
-これだけで R 本体がインストールされます。
+<img width="1439" height="180" alt="image" src="https://github.com/user-attachments/assets/817e1d24-4289-4d06-8a46-98e88ae5c964" />
+
+この画面が出た場合はYと入力しEnter
+
+後は待つだけで R 本体がインストールされます。
 
 ## 3. Rtools のインストール
 

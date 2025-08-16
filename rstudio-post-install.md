@@ -4,8 +4,11 @@
 1. RStudio を起動します。
 2. メニューの **Tools › Global Options** を開き、左の **Code** › **Saving** を選びます。
 3. "Default text encoding" が "UTF-8" になっていることを確認します。
-   <!-- 画像: Global Options の Code > Saving で UTF-8 を確認している画面 -->
+  <img width="721" height="759" alt="image" src="https://github.com/user-attachments/assets/50724381-6fcf-4892-a8fd-9b48d63be013" />
+   (System defaultであればそのままでも問題ありません)
+   
 4. もし別の文字コードになっている場合は "Change..." から "UTF-8" を選択し、"Apply" を押します。
+
 
 ## 2. ペインのレイアウトを変更する
 1. **Tools › Global Options** の **Pane Layout** を開きます。

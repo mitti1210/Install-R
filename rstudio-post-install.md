@@ -17,7 +17,7 @@
     <img width="714" height="719" alt="image" src="https://github.com/user-attachments/assets/871eff1f-36c3-49e1-a689-41fe25789e34" />
 
 
-2. "Console" を右上にドラッグします。
+2. 右上を"Console" にします。
 3. 右下のペインに "Environment" を追加します。
     <img width="714" height="719" alt="image" src="https://github.com/user-attachments/assets/8b172f96-6c78-4ac6-be1f-bbc0d4097bb7" />
     

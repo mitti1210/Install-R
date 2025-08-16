@@ -101,7 +101,7 @@ brew install rig
     <img width="444" height="112" alt="image" src="https://github.com/user-attachments/assets/f763d83c-e04b-412b-9362-dd3b13387e36" />
 
     1つだけ入っているならそのバージョンだけが表示されます。
-    2つ以上入れた場合はここで一覧を確認できます。
+    2つ以上入れた場合は上図のように一覧を確認できます。
    *がついているのが現在使っているバージョン(default)です。今は`R4.4.3`になっています。
     `rig` で入れた R だけが表示されるため、別の方法で入れた R は必要なら `rig add` で入れ直してください。
 

@@ -8,15 +8,20 @@
   
    (System defaultであればそのままでも問題ありません)
    
-4. もし別の文字コードになっている場合は "Change..." から "UTF-8" を選択し、"Apply" を押します。
+4. もし別の文字コードになっている場合は "Change..." から "UTF-8" を選択してください。
 
 
 ## 2. ペインのレイアウトを変更する
 1. **Tools › Global Options** の **Pane Layout** を開きます。
 2. "Console" を右上にドラッグします。
-   <!-- 画像: Pane Layout で Console を右上に移動している様子 -->
+   <img width="714" height="719" alt="image" src="https://github.com/user-attachments/assets/871eff1f-36c3-49e1-a689-41fe25789e34" />
+
 3. 右下のペインに "Environment" を追加します。
-   <!-- 画像: Pane Layout で右下に Environment を追加している様子 -->
+  <img width="714" height="719" alt="image" src="https://github.com/user-attachments/assets/8b172f96-6c78-4ac6-be1f-bbc0d4097bb7" />
+4. 見た目のカスタマイズ
+   設定の**Appearance**ではスクリプトのフォントや色の設定ができます。
+   完全に好みなので、自由に設定してみてください。
+
 
 ## 3. プロジェクトを作成する
 1. 右上の "Project: (None)" をクリックし、**New Project...** を選びます。

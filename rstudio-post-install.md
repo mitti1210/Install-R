@@ -22,6 +22,7 @@
     <img width="714" height="719" alt="image" src="https://github.com/user-attachments/assets/8b172f96-6c78-4ac6-be1f-bbc0d4097bb7" />
     
 4. 見た目のカスタマイズ
+
    設定の**Appearance**ではスクリプトのフォントや色の設定ができます。
    完全に好みなので、自由に設定してみてください。
 

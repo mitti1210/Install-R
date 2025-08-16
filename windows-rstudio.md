@@ -2,6 +2,9 @@
 
 RStudio のサイトから R・Rtools・RStudio を順番に入れる、もっとも一般的な方法です。迷ったらまずはこの手順で大丈夫です。PowerShell の開き方やコマンドの貼り付け方から丁寧に説明します。
 
+> [!NOTE]
+> RStudio は Windows 10 以降のみサポートされています。Windows 7/8 を利用している場合は、OS を Windows 10 以上にアップグレードすることをおすすめします。旧OSでのインストールは過去バージョンを自己責任で導入してください。
+
 ## 0. PowerShell を管理者として開く
 
 1. 画面左下の **スタートボタン** をクリックします。\\
@@ -25,7 +28,7 @@ $Env:USERNAME
 $Env:PROCESSOR_ARCHITECTURE
 ```
 
-日本語が含まれる場合は英数字のみのアカウントを新規作成し、管理者権限を付与してください。\\
+日本語が含まれる場合は英数字のみのアカウントを新規作成し、管理者権限を付与してください。詳しい背景は [WindowsにおけるRインストールと日本語パス問題の変遷](windows-r-japanese-path-issues.md) を参照してください。\\
 [ローカルユーザーまたは管理者アカウントを作成する方法](https://support.microsoft.com/ja-jp/windows/create-a-local-user-or-administrator-account-in-windows-20f7d0d1-70f5-4102-9039-0a5a603b005e) を参照します。
 
 ## 2. ライブラリ用フォルダの作成

@@ -53,7 +53,7 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
    - 変数名: `R_LIBS_USER`
    - 変数値: `C:\Users\●●\Documents\R\libs`
 
-   ●●は`$Env:USERNAME`の結果を入力します。例えば`$Env:USERNAME`の結果がhogehogeなら変数値は`C:\Users\hogehoge\Documents\R\libs`となります。
+   ●●は`$Env:USERNAME`の結果を入力します。例えば`$Env:USERNAME`の結果が`hogehoge`なら変数値は`C:\Users\hogehoge\Documents\R\libs`となります。
 
 4. OK を押してすべて閉じます。
 

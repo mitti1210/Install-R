@@ -125,11 +125,13 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
     - Rtools のダウンロードは容量が大きいため、回線や PC によってはダウンロード・インストールに 10 分ほどかかることがあります。
 
 4. ダウンロードした Rtools のインストーラを起動し、案内に従って「次へ」を押し続け、最後に「完了」で閉じます。
-5. 再度 ブラウザで [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) を開き、**RStudio** の Windows 版をダウンロードしてインストールします。
+5. 再度 ブラウザで [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) を開き、**DOWNLOAD RSTUDIO DESKTO FOR WINDOWS ** をクリックしダウンロードします。
 
-   
+   <img width="532" height="96" alt="image" src="https://github.com/user-attachments/assets/549bc551-47a6-4216-b463-c0cf372eea3b" />
 
-   - こちらも基本的に「Next」を押し続け、最後に「Finish」で閉じれば大丈夫です。
+
+   - ダウンロードしたインストーラーを開き、基本的に「次へ」を押し続け、最後に「完了」で閉じれば大丈夫です。
+   - インストール後はインストーラーを削除してください。
 
 ## 5. RStudio の初期設定とパッケージのインストール
 

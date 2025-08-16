@@ -1,5 +1,6 @@
 # macOS: Homebrew で R と RStudio をインストールする方法
 
+
 文字を打つ場所や「Enter」を押すタイミングまで丁寧に説明します。
 
 ## 0. ターミナルを開く
@@ -30,6 +31,7 @@ uname -m
 ```bash
 brew --version
 ```
+
 
 バージョン番号が表示されれば OK です。\
 何も表示されない場合は、ブラウザで [Homebrew の公式サイト](https://brew.sh/) を開き、\

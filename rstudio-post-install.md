@@ -4,7 +4,7 @@
 1. RStudio を起動します。
 2. メニューの **Tools › Global Options** を開き、左の **Code** › **Saving** を選びます。
 3. "Default text encoding" が "UTF-8" になっていることを確認します。
-  <img width="210" height="222" alt="image" src="https://github.com/user-attachments/assets/50724381-6fcf-4892-a8fd-9b48d63be013" />
+  <img width="420" height="444" alt="image" src="https://github.com/user-attachments/assets/50724381-6fcf-4892-a8fd-9b48d63be013" />
    (System defaultであればそのままでも問題ありません)
    
 4. もし別の文字コードになっている場合は "Change..." から "UTF-8" を選択し、"Apply" を押します。

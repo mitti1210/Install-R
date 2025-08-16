@@ -25,6 +25,8 @@ PowerShell の開き方やコマンドの貼り付け方から丁寧に説明し
 
 1. **winget が使えるか確認**
 
+   以下をコピーしPowerShellに張り付けてEnterを押してください。
+
     ```powershell
     winget -v
     ```
@@ -33,6 +35,8 @@ PowerShell の開き方やコマンドの貼り付け方から丁寧に説明し
    表示されなければwingetを使うことはできないので
 
 ## 2. R のインストール
+
+以下をコピーしPowerShellに張り付けてEnterを押してください。
 
 ```powershell
 winget install -e RProject.R
@@ -47,6 +51,8 @@ winget install -e RProject.R
 後は待つだけで R 本体がインストールされます。
 
 ## 3. Rtools のインストール
+
+同様に以下をコピーしPowerShellに張り付けてEnterを押してください。
 
 ```powershell
 winget install -e RProject.Rtools

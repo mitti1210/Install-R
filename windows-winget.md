@@ -55,7 +55,7 @@ PowerShell の開き方やコマンドの貼り付け方から丁寧に説明し
 winget install -e RProject.R
 ```
 
-`-e` は完全一致検索のオプションです。R 本体がインストールされます。
+これだけで R 本体がインストールされます。
 
 ## 3. Rtools のインストール
 
@@ -63,7 +63,7 @@ winget install -e RProject.R
 winget install -e RProject.Rtools
 ```
 
-パッケージのコンパイルに必要なツールです。環境によっては時間がかかります。
+パッケージのコンパイルに必要なツールです。環境によっては時間がかかります(約10分かかることもある)。
 
 ## 4. RStudio のインストール
 

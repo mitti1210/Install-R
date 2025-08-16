@@ -86,7 +86,7 @@ rig add release
 
    `release` は「一番新しい安定版」を意味します。通常はこれだけで十分です。インストールが終わるまで待ちます。
 
-   <img width="1456" height="513" alt="image" src="https://github.com/user-attachments/assets/cce04674-1faa-4ab8-88bc-28f889abfb9d" />
+   <img width="980" height="337" alt="image" src="https://github.com/user-attachments/assets/296a65cc-e650-41c6-97b7-0df5475a8777" />
 
    上記のような画面になり、一番下に`＞`が出るようになればインストール完了です。
 

@@ -53,7 +53,10 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
 2. **環境変数の編集** を選びます。
 3. 「ユーザー環境変数」の欄で **新規(N)** をクリックし、以下を入力します。
    - 変数名: `R_LIBS_USER`
-   - 変数値: `C:\Users\<ユーザー名>\Documents\R\libs`
+   - 変数値: `C:\Users\●●\Documents\R\libs`
+
+   ●●は`$Env:USERNAME`の結果を入力します。例えば`$Env:USERNAME`の結果がhogehogeなら変数値は`C:\Users\hogehoge\Documents\R\libs`となります。
+
 4. OK を押してすべて閉じます。
 
 ## 4. R / Rtools / RStudio のインストール

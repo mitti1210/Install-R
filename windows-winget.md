@@ -25,9 +25,9 @@ PowerShell の開き方やコマンドの貼り付け方から丁寧に説明し
 
    以下をコピーしPowerShellに張り付けてEnterを押してください。
 
-    ```powershell
-    winget -v
-    ```
+   ```powershell
+   winget -v
+   ```
 
    <img width="680" height="107" alt="image" src="https://github.com/user-attachments/assets/a9870985-42ce-4dcd-8a9a-06dc23ffc570" />
 

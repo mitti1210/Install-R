@@ -43,57 +43,57 @@ uname -m
 
 1. **rig が入ったか確認**
 
-    ```bash
-    rig --version
-    ```
+   ```bash
+   rig --version
+   ```
 
-    <img width="519" height="46" alt="image" src="https://github.com/user-attachments/assets/f3e8952d-ac02-4b3c-a8ad-29a167f84556" />
+   <img width="519" height="46" alt="image" src="https://github.com/user-attachments/assets/f3e8952d-ac02-4b3c-a8ad-29a167f84556" />
 
-    バージョン番号が表示されれば成功です。
+   バージョン番号が表示されれば成功です。
 
 2. **インストールできる R の一覧を見る**
 
-    ```bash
-    rig available
-    ```
+   ```bash
+   rig available
+   ```
 
-    どのバージョンの R を用意できるかが表示されます。
+   どのバージョンの R を用意できるかが表示されます。
 
 3. **最新の R をインストール**
 
-    ```bash
-    rig add release
-    ```
+   ```bash
+   rig add release
+   ```
 
-    `release` は「一番新しい安定版」を意味します。通常はこれだけで十分です。  
-    *もし特定のバージョンを入れたい場合だけ* 次のように数字を指定します。
+   `release` は「一番新しい安定版」を意味します。通常はこれだけで十分です。  
+   _もし特定のバージョンを入れたい場合だけ_ 次のように数字を指定します。
 
-    ```bash
-    rig add 4.4.3
-    ```
+   ```bash
+   rig add 4.4.3
+   ```
 
 4. **インストール済み R を確認**
 
-    ```bash
-    rig list
-    ```
+   ```bash
+   rig list
+   ```
 
-    <img width="444" height="112" alt="image" src="https://github.com/user-attachments/assets/f763d83c-e04b-412b-9362-dd3b13387e36" />
+   <img width="444" height="112" alt="image" src="https://github.com/user-attachments/assets/f763d83c-e04b-412b-9362-dd3b13387e36" />
 
-    1つだけ入っているならそのバージョンだけが表示されます。  
-    2つ以上入れた場合は上図のように一覧を確認できます。  
-    *がついているのが現在使っているバージョン (default) です。今は `R4.4.3` になっています。  
-    `rig` で入れた R だけが表示されるため、別の方法で入れた R は必要なら `rig add` で入れ直してください。
+   1つだけ入っているならそのバージョンだけが表示されます。  
+   2つ以上入れた場合は上図のように一覧を確認できます。  
+   \*がついているのが現在使っているバージョン (default) です。今は `R4.4.3` になっています。  
+   `rig` で入れた R だけが表示されるため、別の方法で入れた R は必要なら `rig add` で入れ直してください。
 
 5. **使う R のバージョンを切り替える（複数バージョンをインストールしている場合のみ）**
 
-    ```bash
-    rig default 4.5.1
-    ```
+   ```bash
+   rig default 4.5.1
+   ```
 
-    上記を入力すると先程 default だった `R4.4.3` から `R4.5.1` に切り替わります（`rig list` で確認可能）。  
-    バージョンを複数入れているときだけ必要な操作です。  
-    1つしか入っていないなら何もしなくて大丈夫です。
+   上記を入力すると先程 default だった `R4.4.3` から `R4.5.1` に切り替わります（`rig list` で確認可能）。  
+   バージョンを複数入れているときだけ必要な操作です。  
+   1つしか入っていないなら何もしなくて大丈夫です。
 
 ## 4. XQuartz をインストール（必要な人のみ）
 

@@ -24,7 +24,6 @@ uname -m
 
 <img width="525" height="74" alt="image" src="https://github.com/user-attachments/assets/4ea605f2-b5d1-4f56-ad72-a439455bc091" />
 
-
 `arm64` なら Apple シリコン、`x86_64` なら Intel です。後でダウンロードするファイルを選ぶ目印になります。
 
 ## 2. R と RStudio のダウンロードとインストール
@@ -37,7 +36,7 @@ uname -m
 
 <img width="496" height="327" alt="image" src="https://github.com/user-attachments/assets/2bc31002-4ebb-4462-83ae-7c5331b478df" style="border: 1px solid #000;" />
 
-   - ファイル名に `arm64` があれば Apple シリコン用、`x86_64` があれば Intelです。1で行った`uname -m`の結果を参考にしてください。
+- ファイル名に `arm64` があれば Apple シリコン用、`x86_64` があれば Intelです。1で行った`uname -m`の結果を参考にしてください。
 
 3. ダウンロードした `.pkg` ファイルをダブルクリックし、画面の指示に従って R をインストールします。
 
@@ -62,13 +61,12 @@ uname -m
 インストールを選択
 
 4. [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) に戻り、 **RStudio** の `Download` ボタンをクリックし、`RStudio.dmg` をダウンロードします。
-<img width="313" height="175" alt="image" src="https://github.com/user-attachments/assets/00409251-9fe1-47ab-a014-07433421628c" style="border: 1px solid #000;" />
+   <img width="313" height="175" alt="image" src="https://github.com/user-attachments/assets/00409251-9fe1-47ab-a014-07433421628c" style="border: 1px solid #000;" />
 
 5. ダウンロードした `.dmg` ファイルをダブルクリックし、表示されるウインドウから **RStudio** を **アプリケーション** フォルダにドラッグします。その後ディスクイメージをイジェクトしてください。
-<img width="140" height="56" alt="image" src="https://github.com/user-attachments/assets/9816a752-b003-4536-8140-58ae54bce47f" style="border: 1px solid #000;" />
+   <img width="140" height="56" alt="image" src="https://github.com/user-attachments/assets/9816a752-b003-4536-8140-58ae54bce47f" style="border: 1px solid #000;" />
 
 <img width="125" height="32" alt="image" src="https://github.com/user-attachments/assets/d7af3fc8-cb49-4ad3-a8da-924ded90b3f0" />
-
 
 ## 3. XQuartz をインストール（必要な人のみ）
 
@@ -78,12 +76,11 @@ uname -m
 
 <img width="496" height="327" alt="image" src="https://github.com/user-attachments/assets/1071ae0c-391e-4241-9954-b3bd31f2c2e2" style="border: 1px solid #000;" />
 
-
 ## 4. RStudio の初期設定とパッケージのインストール
 
 RStudioをはじめて起動する場合は
 
->"RStudio.app"はインターネットからダウンロードされたアプリケーションです。開いてもよろしいですか？
+> "RStudio.app"はインターネットからダウンロードされたアプリケーションです。開いてもよろしいですか？
 
 と聞かれたら「開く」を選択してください。
 

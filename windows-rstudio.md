@@ -13,7 +13,6 @@ RStudio のサイトから R・Rtools・RStudio を順番に入れる、もっ�
 
 <img width="486" height="400" alt="image" src="https://github.com/user-attachments/assets/423cacf4-09ac-4696-9c76-9ef2522bc7a8" />
 
-
 4. 「このアプリがデバイスに変更を加えることを許可しますか?」と出たら **はい** をクリックします。
 5. 黒い画面が開き、ここに文字を入力します。これを **PowerShell（コマンドライン）** と呼びます。
    - この後に出てくる命令文をマウスで選択し、右クリックで貼り付け、**Enter キー**を押すだけで実行できます。
@@ -91,11 +90,11 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
    <img width="727" height="556" alt="image" src="https://github.com/user-attachments/assets/68df2d98-5b78-418c-b8fe-38088486c111" />
 
    デフォルトのままで次へを選択
-   
+
    <img width="727" height="556" alt="image" src="https://github.com/user-attachments/assets/0ad60ce0-24ff-43e8-a120-10891c29aad1" />
 
    次へを選択
-   
+
    <img width="731" height="554" alt="image" src="https://github.com/user-attachments/assets/39eca991-7714-405d-977e-f7a9c67796c9" />
 
    上2つは好みに合わせて。下2つはチェックをつけ次へを選択
@@ -111,7 +110,7 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
    <img width="149" height="54" alt="image" src="https://github.com/user-attachments/assets/de3f17a2-5d24-432c-bf97-8acc4f347332" />
 
    ダウンロードしたインストーラーはゴミ箱に捨ててOK
-   
+
 4. 前のページに戻り **Rtools** を選び、インストールした R のバージョンをクリックします。
 
    <img width="219" height="112" alt="image" src="https://github.com/user-attachments/assets/65f671b5-d14c-4a5d-abb4-76517daf4be8" />
@@ -119,17 +118,14 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
    <img width="711" height="217" alt="image" src="https://github.com/user-attachments/assets/b6fc2fe5-a390-4641-8fa3-3a1a8e6da3af" />
 
    <img width="1464" height="195" alt="image" src="https://github.com/user-attachments/assets/be72309f-45db-49a1-a177-c7fd5fd3439e" />
+   - ダウンロードしたRに対応したRtoolsのバージョンを選択します。
+   - ページの中ほどに「Rtools45 may be installed from the Rtools45 installer or 64-bit ARM Rtools45 installer. It is recommended to use the defaults, including the default installation location of C:\rtools45.」のような記載があるので、先ほど `$Env:PROCESSOR_ARCHITECTURE` で確認した結果に合わせて `Rtools45 installer` (AMD64) か `64-bit ARM Rtools45 installer` (ARM64) のどちらかを選びます。ここでの `45` は R のバージョンによって変わることがあります。
+   - Rtools のダウンロードは容量が大きいため、回線や PC によってはダウンロード・インストールに 10 分ほどかかることがあります。
 
-    - ダウンロードしたRに対応したRtoolsのバージョンを選択します。
-    - ページの中ほどに「Rtools45 may be installed from the Rtools45 installer or 64-bit ARM Rtools45 installer. It is recommended to use the defaults, including the default installation location of C:\rtools45.」のような記載があるので、先ほど `$Env:PROCESSOR_ARCHITECTURE` で確認した結果に合わせて `Rtools45 installer` (AMD64) か `64-bit ARM Rtools45 installer` (ARM64) のどちらかを選びます。ここでの `45` は R のバージョンによって変わることがあります。
-    - Rtools のダウンロードは容量が大きいため、回線や PC によってはダウンロード・インストールに 10 分ほどかかることがあります。
-
-4. ダウンロードした Rtools のインストーラを起動し、案内に従って「次へ」を押し続け、最後に「完了」で閉じます。
-5. 再度 ブラウザで [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) を開き、**DOWNLOAD RSTUDIO DESKTO FOR WINDOWS ** をクリックしダウンロードします。
+5. ダウンロードした Rtools のインストーラを起動し、案内に従って「次へ」を押し続け、最後に「完了」で閉じます。
+6. 再度 ブラウザで [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) を開き、**DOWNLOAD RSTUDIO DESKTO FOR WINDOWS ** をクリックしダウンロードします。
 
    <img width="532" height="96" alt="image" src="https://github.com/user-attachments/assets/549bc551-47a6-4216-b463-c0cf372eea3b" />
-
-
    - ダウンロードしたインストーラーを開き、基本的に「次へ」を押し続け、最後に「完了」で閉じれば大丈夫です。
    - インストール後はインストーラーを削除してください。
 

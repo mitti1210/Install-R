@@ -8,7 +8,7 @@
 
    <img width="420" height="444" alt="image" src="https://github.com/user-attachments/assets/50724381-6fcf-4892-a8fd-9b48d63be013" />
 
-   (System defaultであればそのままでも問題ありません)
+   (System defaultがUTF-8であればそのままでも問題ないはずですが、4を行うと確実です)
 
 4. もし別の文字コードになっている場合は "Change..." から "UTF-8" を選択してください。
 

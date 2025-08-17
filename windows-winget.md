@@ -1,7 +1,7 @@
 # Windows: winget での簡単インストール
 
 > [!NOTE]
-> RStudio は Windows 10 以降のみサポートされています。Windows 7/8 を利用している場合は、OS を Windows 10 以上にアップグレードすることをおすすめします。旧OSでのインストールは過去バージョンを自己責任で導入してください。 詳細はこちら: [Windows7/8に関する注意点](windows-r-japanese-path-issues.md)。
+> RStudio は Windows 10 以降のみサポートされています。Windows7/8のままでのインストールは非推奨です。Windows 7/8 を利用している場合は、OS を Windows 10 以上にアップグレードすることをおすすめします。Windows7/8/からWindows10/11にアップグレードした場合はトラブルが起きる可能性があるので、[Windows: RStudio サイトからのインストール](windows-rstudio.md)でインストールしてください。詳細はこちら: [Windows7/8に関する注意点](windows-r-japanese-path-issues.md)。
 
 PowerShell の開き方やコマンドの貼り付け方から丁寧に説明します。
 

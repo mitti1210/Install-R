@@ -40,7 +40,7 @@ $Env:USERNAME
    <img width="680" height="107" alt="image" src="https://github.com/user-attachments/assets/a9870985-42ce-4dcd-8a9a-06dc23ffc570" />
 
    バージョン番号が表示されれば利用できます。
-   表示されなければwingetを使うことはできないので[Windows: RStudio サイトからのインストール](windows-rstudio.md)でインストールしてください。
+   表示されない・エラー場出る場合はwingetを使うことはできないので[Windows: RStudio サイトからのインストール](windows-rstudio.md)でインストールしてください。
 
 ## 2. R のインストール
 

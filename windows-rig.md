@@ -136,3 +136,23 @@ winget install -e Posit.RStudio
 ## 9. RStudio の初期設定とパッケージのインストール
 
 RStudio の初期設定や必要なパッケージの導入については [RStudioインストール後の準備について](rstudio-post-install.md) を参照してください。
+
+## 10. 上手くインストールできるか確認する
+
+1. RStudio のコンソールで次を実行します。
+
+   ```r
+   install.packages("pacman")
+   library(pacman)
+   p_loaded()
+   ```
+
+   `p_loaded()` に `pacman` が表示されれば R とライブラリの設定は正常です。表示されない（`character(0)` が出る、`library(pacman)` で「there is no package called 'pacman'」と表示される）場合はインストールに失敗しています。
+
+### トラブルが起きたときは？
+
+- `install.packages()` が `C:\Users\<ユーザー名>\OneDrive\??????\R\win-library\...` のようなパスで止まる場合は、`R_LIBS_USER` 環境変数が正しく設定されているか確認してください。
+
+---
+
+環境は一人ひとり異なるため、手順どおりに進めてもトラブルが発生することがあります。エラーが出たときはウェブ検索や生成 AI を活用すると解決できることが多いです。

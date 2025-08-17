@@ -1,7 +1,7 @@
 # Windows: rig で複数バージョンを管理
 
 > [!NOTE]
-> RStudio は Windows 10 以降のみサポートされています。Windows 7/8 を利用している場合は、OS を Windows 10 以上にアップグレードすることをおすすめします。旧OSでのインストールは過去バージョンを自己責任で導入してください。 詳細はこちら: [Windows7/8に関する注意点](windows-r-japanese-path-issues.md)。
+> RStudio は Windows 10 以降のみサポートされています。Windows7/8のままでのインストールは非推奨です。Windows 7/8 を利用している場合は、OS を Windows 10 以上にアップグレードすることをおすすめします。Windows7/8/からWindows10/11にアップグレードした場合はトラブルが起きる可能性があるので、[Windows: RStudio サイトからのインストール](windows-rstudio.md)でインストールしてください。詳細はこちら: [Windows7/8に関する注意点](windows-r-japanese-path-issues.md)。
 
 PowerShell の開き方やコマンドの貼り付け方から丁寧に説明します。
 
@@ -27,7 +27,7 @@ PowerShell の開き方やコマンドの貼り付け方から丁寧に説明し
 $Env:USERNAME
 ```
 
-英数字であれば問題ありません。もし日本語が含まれる場合は英数字のみのアカウントを新規作成し、管理者権限を付与してください。[ローカルユーザーまたは管理者アカウントを作成する方法](https://support.microsoft.com/ja-jp/windows/windows-%E3%81%A7%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC-%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%82%92%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B-104dc19f-6430-4b49-6a2b-e4dbd1dcdf32) を参照します。
+英数字であれば問題ありません。もし日本語が含まれる場合は英数字のみのアカウントを新規作成し、管理者権限を付与してください。[ローカルユーザーまたは管理者アカウントを作成する方法](https://support.microsoft.com/ja-jp/windows/windows-%E3%81%A7%E3%83%A6%E3%83%BC%E3%82%B6%E3%83%BC-%E3%82%A2%E3%82%AB%E3%82%A6%E3%83%B3%E3%83%88%E3%82%92%E7%AE%A1%E7%90%86%E3%81%99%E3%82%8B-104dc19f-6430-4b49-6a2b-e4dbd1dcdf32) 
 
 2. **winget が使えるか確認**
 

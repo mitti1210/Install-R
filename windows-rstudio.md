@@ -128,6 +128,7 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
 6. 再度 ブラウザで [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) を開き、**DOWNLOAD RSTUDIO DESKTO FOR WINDOWS ** をクリックしダウンロードします。
 
    <img width="532" height="96" alt="image" src="https://github.com/user-attachments/assets/549bc551-47a6-4216-b463-c0cf372eea3b" />
+   
    - ダウンロードしたインストーラーを開き、基本的に「次へ」を押し続け、最後に「完了」で閉じれば大丈夫です。
    - インストール後はインストーラーを削除してください。
 

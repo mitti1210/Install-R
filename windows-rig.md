@@ -11,7 +11,7 @@ PowerShell の開き方やコマンドの貼り付け方から丁寧に説明し
 2. 検索欄に `powershell` と入力します。
 3. 表示された **Windows PowerShell** を右クリックし、「**管理者として実行**」を選びます。
 
-<img width="486" height="400" alt="image" src="https://github.com/user-attachments/assets/423cacf4-09ac-4696-9c76-9ef2522bc7a8" />
+<img width="486" height="400" alt="image" src="assets/windows/common/start-powershell-admin.png" />
 
 4. 「このアプリがデバイスに変更を加えることを許可しますか?」と出たら **はい** をクリックします。
 5. 黒い画面が開き、ここに文字を入力します。これを **PowerShell（コマンドライン）** と呼びます。
@@ -37,7 +37,7 @@ $Env:USERNAME
    winget -v
    ```
 
-   <img width="680" height="107" alt="image" src="https://github.com/user-attachments/assets/a9870985-42ce-4dcd-8a9a-06dc23ffc570" />
+   <img width="680" height="107" alt="image" src="assets/windows/common/winget-version.png" />
 
    バージョン番号が表示されれば利用できます。
    表示されない・エラーが出る場合はwingetを使うことはできないので[Windows: RStudio サイトからのインストール](windows-rstudio.md)でインストールしてください。
@@ -50,11 +50,11 @@ $Env:USERNAME
 winget install -e Posit.rig
 ```
 
-   <img width="1439" height="180" alt="image" src="https://github.com/user-attachments/assets/549d7bba-c2eb-4641-b610-4597f0e81f3d" />
+   <img width="1439" height="180" alt="image" src="assets/windows/rig/winget-install-rig.png" />
 
 この画面が出てきたらYを入力しEnter
 
-   <img width="1108" height="226" alt="image" src="https://github.com/user-attachments/assets/e2243e0b-421e-4731-bdcb-3ef8d29af32d" />
+   <img width="1108" height="226" alt="image" src="assets/windows/rig/winget-install-confirm.png" />
 
 インストールが完了したら **PowerShell を一度閉じ**、再度管理者として開きます。
 
@@ -66,7 +66,7 @@ winget install -e Posit.rig
 rig --version
 ```
 
-   <img width="495" height="57" alt="image" src="https://github.com/user-attachments/assets/b9a510c8-8d51-4111-b298-cde9c63e55a4" />
+   <img width="495" height="57" alt="image" src="assets/windows/rig/rig-version.png" />
 
 バージョン番号が表示されれば成功です。
 
@@ -78,7 +78,7 @@ rig add release
 
 `release` は「一番新しい安定版」を意味します。通常はこれだけで十分です。インストールが終わるまで待ちます。
 
-   <img width="980" height="337" alt="image" src="https://github.com/user-attachments/assets/296a65cc-e650-41c6-97b7-0df5475a8777" />
+   <img width="980" height="337" alt="image" src="assets/windows/rig/rig-add-release.png" />
 
 上記のような画面になり、一番下に`＞`が出るようになればインストール完了です。
 
@@ -102,7 +102,7 @@ rig add 4.4.3
 rig system rtools add
 ```
 
-<img width="193" height="19" alt="image" src="https://github.com/user-attachments/assets/15c6fe01-71b5-4fe5-9ebb-13540b2f3606" />
+<img width="193" height="19" alt="image" src="assets/windows/rig/rtools-install-complete.png" />
 
 インターネット環境によっては10分ほど時間がかかります。画面の一番下に上記のような`>`が出るまでは待ちます。
 

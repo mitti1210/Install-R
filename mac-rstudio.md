@@ -22,7 +22,7 @@ RStudio のサイトから R と RStudio を順番に入れる、もっとも一
 uname -m
 ```
 
-<img width="525" height="74" alt="image" src="https://github.com/user-attachments/assets/4ea605f2-b5d1-4f56-ad72-a439455bc091" />
+<img width="525" height="74" alt="image" src="assets/mac/rstudio/uname-output.png" />
 
 `arm64` なら Apple シリコン、`x86_64` なら Intel です。後でダウンロードするファイルを選ぶ目印になります。
 
@@ -30,43 +30,43 @@ uname -m
 
 1. ブラウザで [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) を開きます。
 
-<img width="300" height="74" alt="image" src="https://github.com/user-attachments/assets/34acf8db-edb0-4421-ba28-6f8fc3875970" />
+<img width="300" height="74" alt="image" src="assets/shared/posit-download-and-install-r.png" />
 
 2. ページ内の **Download AND INSTALL R** をクリックし、表示されたリンクから自分の CPU に合ったものをダウンロードします。
 
-<img width="496" height="327" alt="image" src="https://github.com/user-attachments/assets/2bc31002-4ebb-4462-83ae-7c5331b478df" style="border: 1px solid #000;" />
+<img width="496" height="327" alt="image" src="assets/mac/rstudio/download-and-install-r-page.png" style="border: 1px solid #000;" />
 
 - ファイル名に `arm64` があれば Apple シリコン用、`x86_64` があれば Intelです。1で行った`uname -m`の結果を参考にしてください。
 
 3. ダウンロードした `.pkg` ファイルをダブルクリックし、画面の指示に従って R をインストールします。
 
-<img width="306" height="222" alt="image" src="https://github.com/user-attachments/assets/498f3dfd-b3b8-44a5-84bd-21723c042000" style="border: 1px solid #000;" />
+<img width="306" height="222" alt="image" src="assets/mac/rstudio/r-installer-continue-1.png" style="border: 1px solid #000;" />
 
 続けるを選択
 
-<img width="306" height="222" alt="image" src="https://github.com/user-attachments/assets/7b39eb77-a4d3-4722-ad4c-63e25b6a7e6c" style="border: 1px solid #000;" />
+<img width="306" height="222" alt="image" src="assets/mac/rstudio/r-installer-continue-2.png" style="border: 1px solid #000;" />
 
 続けるを選択
 
-<img width="306" height="222" alt="image" src="https://github.com/user-attachments/assets/c18477fb-8802-42c2-8de7-ae538ba52a6e" style="border: 1px solid #000;" />
+<img width="306" height="222" alt="image" src="assets/mac/rstudio/r-installer-license.png" style="border: 1px solid #000;" />
 
 続けるを選択
 
-<img width="306" height="222" alt="image" src="https://github.com/user-attachments/assets/c341f590-640a-455d-8b14-16cd335de39a" style="border: 1px solid #000;" />
+<img width="306" height="222" alt="image" src="assets/mac/rstudio/r-installer-agree.png" style="border: 1px solid #000;" />
 
 同意する
 
-<img width="306" height="222" alt="image" src="https://github.com/user-attachments/assets/efcf5268-85a1-4b44-b607-97a79fc9b97b" style="border: 1px solid #000;" />
+<img width="306" height="222" alt="image" src="assets/mac/rstudio/r-installer-install.png" style="border: 1px solid #000;" />
 
 インストールを選択
 
 4. [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) に戻り、 **RStudio** の `Download` ボタンをクリックし、`RStudio.dmg` をダウンロードします。
-   <img width="313" height="175" alt="image" src="https://github.com/user-attachments/assets/00409251-9fe1-47ab-a014-07433421628c" style="border: 1px solid #000;" />
+   <img width="313" height="175" alt="image" src="assets/mac/rstudio/rstudio-download-button.png" style="border: 1px solid #000;" />
 
 5. ダウンロードした `.dmg` ファイルをダブルクリックし、表示されるウインドウから **RStudio** を **アプリケーション** フォルダにドラッグします。その後ディスクイメージをイジェクトしてください。
-   <img width="140" height="56" alt="image" src="https://github.com/user-attachments/assets/9816a752-b003-4536-8140-58ae54bce47f" style="border: 1px solid #000;" />
+   <img width="140" height="56" alt="image" src="assets/mac/common/drag-to-applications.png" style="border: 1px solid #000;" />
 
-<img width="125" height="32" alt="image" src="https://github.com/user-attachments/assets/d7af3fc8-cb49-4ad3-a8da-924ded90b3f0" />
+<img width="125" height="32" alt="image" src="assets/mac/common/eject-disk.png" />
 
 ## 3. XQuartz をインストール（必要な人のみ）
 
@@ -74,7 +74,7 @@ uname -m
 [CRAN の macOS 用ページ](https://cran.rstudio.com/bin/macosx/) にリンクがあります。macOS をメジャーバージョンアップしたら XQuartz も再インストールしてください。
 通常のアプリと同じようにインストールします。
 
-<img width="496" height="327" alt="image" src="https://github.com/user-attachments/assets/1071ae0c-391e-4241-9954-b3bd31f2c2e2" style="border: 1px solid #000;" />
+<img width="496" height="327" alt="image" src="assets/mac/rstudio/xquartz-download.png" style="border: 1px solid #000;" />
 
 ## 4. RStudio の初期設定とパッケージのインストール
 

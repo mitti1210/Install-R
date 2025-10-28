@@ -11,7 +11,7 @@ RStudio のサイトから R・Rtools・RStudio を順番に入れる、もっ�
 2. 検索欄に `powershell` と入力します。
 3. 表示された **Windows PowerShell** を右クリックし、「**管理者として実行**」を選びます。
 
-<img width="486" height="400" alt="image" src="https://github.com/user-attachments/assets/423cacf4-09ac-4696-9c76-9ef2522bc7a8" />
+<img width="486" height="400" alt="image" src="assets/windows/common/start-powershell-admin.png" />
 
 4. 「このアプリがデバイスに変更を加えることを許可しますか?」と出たら **はい** をクリックします。
 5. 黒い画面が開き、ここに文字を入力します。これを **PowerShell（コマンドライン）** と呼びます。
@@ -21,7 +21,7 @@ RStudio のサイトから R・Rtools・RStudio を順番に入れる、もっ�
 
 ## 1. アカウントの確認
 
-<img width="515" height="275" alt="image" src="https://github.com/user-attachments/assets/8f629e1f-a645-4d27-8da2-1fa0f7c2363e" />
+<img width="515" height="275" alt="image" src="assets/windows/rstudio/powershell-username.png" />
 
 1. PowerShell で次のコマンドを実行し、表示された名前を確認します。
 
@@ -63,61 +63,61 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
 1. ブラウザで [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) を開きます。
 2. ページ内の **Download AND INSTALL R** をクリックし、表示された CRAN のページで **base** を選びます。
 
-   <img width="300" height="74" alt="image" src="https://github.com/user-attachments/assets/34acf8db-edb0-4421-ba28-6f8fc3875970" />
+   <img width="300" height="74" alt="image" src="assets/shared/posit-download-and-install-r.png" />
 
 3. 上にある **Download R-x.y.z for Windows** のようなリンクからインストーラ (`R-x.x.x-win.exe`) をダウンロードし、起動します。バージョン番号 (`x.x.x`) は最新のものに置き換わります。
 
-   <img width="496" height="87" alt="image" src="https://github.com/user-attachments/assets/c23d267c-c193-467f-ba1d-550361bb7f00" />
+   <img width="496" height="87" alt="image" src="assets/windows/rstudio/r-download-link.png" />
 
    インストーラでは案内に従って「Next」を押し、ライセンスに同意し、インストール場所もデフォルトのままで構いません。最後に「Finish」で閉じます。
 
-   <img width="445" height="248" alt="image" src="https://github.com/user-attachments/assets/af29572a-4e94-4aa7-bee3-6ef4177b093f" />
+   <img width="445" height="248" alt="image" src="assets/windows/rstudio/r-installer-welcome.png" />
 
    日本語を選択
 
-   <img width="737" height="562" alt="image" src="https://github.com/user-attachments/assets/2f29f012-7082-43e6-b99d-0a042de31bb8" />
+   <img width="737" height="562" alt="image" src="assets/windows/rstudio/r-installer-language.png" />
 
    次へを選択
 
-   <img width="729" height="555" alt="image" src="https://github.com/user-attachments/assets/64bb3bcc-4eb5-47e5-b865-78fccafe2ffc" />
+   <img width="729" height="555" alt="image" src="assets/windows/rstudio/r-installer-select-components.png" />
 
    次へを選択
 
-   <img width="733" height="560" alt="image" src="https://github.com/user-attachments/assets/fe67d8d3-2713-4ce1-88da-8e448d1b7f7f" />
+   <img width="733" height="560" alt="image" src="assets/windows/rstudio/r-installer-select-directory.png" />
 
    全てチェックがついていることを確認して次へを選択
 
-   <img width="727" height="556" alt="image" src="https://github.com/user-attachments/assets/68df2d98-5b78-418c-b8fe-38088486c111" />
+   <img width="727" height="556" alt="image" src="assets/windows/rstudio/r-installer-customization.png" />
 
    デフォルトのままで次へを選択
 
-   <img width="727" height="556" alt="image" src="https://github.com/user-attachments/assets/0ad60ce0-24ff-43e8-a120-10891c29aad1" />
+   <img width="727" height="556" alt="image" src="assets/windows/rstudio/r-installer-start-menu-options.png" />
 
    次へを選択
 
-   <img width="731" height="554" alt="image" src="https://github.com/user-attachments/assets/39eca991-7714-405d-977e-f7a9c67796c9" />
+   <img width="731" height="554" alt="image" src="assets/windows/rstudio/r-installer-destination.png" />
 
    上2つは好みに合わせて。下2つはチェックをつけ次へを選択
 
-   <img width="728" height="557" alt="image" src="https://github.com/user-attachments/assets/a7a69285-2f08-470b-b4d5-1b27a2a05aac" />
+   <img width="728" height="557" alt="image" src="assets/windows/rstudio/r-installer-additional-options.png" />
 
    インストールが終わるのを待つ
 
-   <img width="720" height="550" alt="image" src="https://github.com/user-attachments/assets/22a0332d-50bc-4d32-8791-6c03c8c34764" />
+   <img width="720" height="550" alt="image" src="assets/windows/rstudio/r-installer-progress.png" />
 
    完了を選択
 
-   <img width="149" height="54" alt="image" src="https://github.com/user-attachments/assets/de3f17a2-5d24-432c-bf97-8acc4f347332" />
+   <img width="149" height="54" alt="image" src="assets/windows/rstudio/delete-installer.png" />
 
    ダウンロードしたインストーラーはゴミ箱に捨ててOK
 
 4. 前のページに戻り **Rtools** を選び、インストールした R のバージョンをクリックします。
 
-   <img width="219" height="112" alt="image" src="https://github.com/user-attachments/assets/65f671b5-d14c-4a5d-abb4-76517daf4be8" />
+   <img width="219" height="112" alt="image" src="assets/windows/rstudio/rtools-download-list.png" />
 
-   <img width="711" height="217" alt="image" src="https://github.com/user-attachments/assets/b6fc2fe5-a390-4641-8fa3-3a1a8e6da3af" />
+   <img width="711" height="217" alt="image" src="assets/windows/rstudio/rtools-installer-choice.png" />
 
-   <img width="1464" height="195" alt="image" src="https://github.com/user-attachments/assets/be72309f-45db-49a1-a177-c7fd5fd3439e" />
+   <img width="1464" height="195" alt="image" src="assets/windows/rstudio/rtools-installer-options.png" />
    
    - ダウンロードしたRに対応したRtoolsのバージョンを選択します。
      
@@ -127,7 +127,7 @@ mkdir C:\Users\$Env:USERNAME\Documents\R\libs
 5. ダウンロードした Rtools のインストーラを起動し、案内に従って「次へ」を押し続け、最後に「完了」で閉じます。
 6. 再度 ブラウザで [RStudio のダウンロードページ](https://posit.co/download/rstudio-desktop/) を開き、**DOWNLOAD RSTUDIO DESKTO FOR WINDOWS ** をクリックしダウンロードします。
 
-   <img width="532" height="96" alt="image" src="https://github.com/user-attachments/assets/549bc551-47a6-4216-b463-c0cf372eea3b" />
+   <img width="532" height="96" alt="image" src="assets/windows/rstudio/rstudio-download-button.png" />
    
    - ダウンロードしたインストーラーを開き、基本的に「次へ」を押し続け、最後に「完了」で閉じれば大丈夫です。
    - インストール後はインストーラーを削除してください。

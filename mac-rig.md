@@ -47,7 +47,7 @@ uname -m
    rig --version
    ```
 
-   <img width="519" height="46" alt="image" src="https://github.com/user-attachments/assets/f3e8952d-ac02-4b3c-a8ad-29a167f84556" />
+   <img width="519" height="46" alt="image" src="assets/mac/common/rig-version.png" />
 
    バージョン番号が表示されれば成功です。
 
@@ -78,7 +78,7 @@ uname -m
    rig list
    ```
 
-   <img width="444" height="112" alt="image" src="https://github.com/user-attachments/assets/f763d83c-e04b-412b-9362-dd3b13387e36" />
+   <img width="444" height="112" alt="image" src="assets/mac/common/rig-list.png" />
 
    1つだけ入っているならそのバージョンだけが表示されます。  
    2つ以上入れた場合は上図のように一覧を確認できます。  
@@ -109,9 +109,9 @@ uname -m
 1. `Download RStudio for Mac` をクリックし、`RStudio.dmg` をダウンロードします。
 2. ダウンロードした `.dmg` ファイルをダブルクリックし、表示されるウインドウから **RStudio** を **アプリケーション** フォルダにドラッグします。その後ディスクイメージをイジェクトしてください。
 
-<img width="140" height="56" alt="image" src="https://github.com/user-attachments/assets/9816a752-b003-4536-8140-58ae54bce47f" style="border: 1px solid #000;" />
+<img width="140" height="56" alt="image" src="assets/mac/common/drag-to-applications.png" style="border: 1px solid #000;" />
 
-<img width="125" height="32" alt="image" src="https://github.com/user-attachments/assets/d7af3fc8-cb49-4ad3-a8da-924ded90b3f0" />
+<img width="125" height="32" alt="image" src="assets/mac/common/eject-disk.png" />
 
 ## 6. RStudio の初期設定とパッケージのインストール
 

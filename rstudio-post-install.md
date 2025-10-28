@@ -6,7 +6,7 @@
 2. メニューの **Tools › Global Options** を開き、左の **Code** › **Saving** を選びます。
 3. "Default text encoding" が "UTF-8" になっていることを確認します。
 
-   <img width="420" height="444" alt="image" src="https://github.com/user-attachments/assets/50724381-6fcf-4892-a8fd-9b48d63be013" />
+   <img width="420" height="444" alt="image" src="assets/rstudio/post-install/encoding-settings.png" />
 
    (System defaultがUTF-8であればそのままでも問題ないはずですが、4を行うと確実です)
 
@@ -16,12 +16,12 @@
 
 1. **Tools › Global Options** の **Pane Layout** を開きます。
 
-<img width="714" height="719" alt="image" src="https://github.com/user-attachments/assets/871eff1f-36c3-49e1-a689-41fe25789e34" />
+<img width="714" height="719" alt="image" src="assets/rstudio/post-install/pane-layout-default.png" />
 
 2. 右上を"Console" にします。
 3. 右下のペインに "Environment" を追加します。
 
-   <img width="714" height="719" alt="image" src="https://github.com/user-attachments/assets/8b172f96-6c78-4ac6-be1f-bbc0d4097bb7" />
+   <img width="714" height="719" alt="image" src="assets/rstudio/post-install/pane-layout-custom.png" />
 
 4. 見た目のカスタマイズ
 

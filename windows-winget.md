@@ -11,7 +11,7 @@ PowerShell の開き方やコマンドの貼り付け方から丁寧に説明し
 2. 検索欄に `powershell` と入力します。
 3. 表示された **Windows PowerShell** を右クリックし、「**管理者として実行**」を選びます。
 
-<img width="486" height="400" alt="image" src="https://github.com/user-attachments/assets/423cacf4-09ac-4696-9c76-9ef2522bc7a8" />
+<img width="486" height="400" alt="image" src="assets/windows/common/start-powershell-admin.png" />
 
 4. 「このアプリがデバイスに変更を加えることを許可しますか?」と出たら **はい** をクリックします。
 5. 黒い画面が開き、ここに文字を入力します。これを **PowerShell（コマンドライン）** と呼びます。
@@ -37,7 +37,7 @@ $Env:USERNAME
    winget -v
    ```
 
-   <img width="680" height="107" alt="image" src="https://github.com/user-attachments/assets/a9870985-42ce-4dcd-8a9a-06dc23ffc570" />
+   <img width="680" height="107" alt="image" src="assets/windows/common/winget-version.png" />
 
    バージョン番号が表示されれば利用できます。
    表示されない・エラー場出る場合はwingetを使うことはできないので[Windows: RStudio サイトからのインストール](windows-rstudio.md)でインストールしてください。
@@ -50,11 +50,11 @@ $Env:USERNAME
 winget install -e RProject.R
 ```
 
-<img width="1439" height="180" alt="image" src="https://github.com/user-attachments/assets/817e1d24-4289-4d06-8a46-98e88ae5c964" />
+<img width="1439" height="180" alt="image" src="assets/windows/winget/winget-install-r.png" />
 
 この画面が出た場合はYと入力しEnter
 
-<img width="1038" height="222" alt="image" src="https://github.com/user-attachments/assets/974d4114-75fb-48e2-a5e5-d41ad96c01fd" />
+<img width="1038" height="222" alt="image" src="assets/windows/winget/winget-install-r-confirm.png" />
 
 後は待つだけで R 本体がインストールされます。
 

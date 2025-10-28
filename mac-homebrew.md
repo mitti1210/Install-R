@@ -22,7 +22,7 @@
 uname -m
 ```
 
-<img width="526" height="125" alt="image" src="https://github.com/user-attachments/assets/0e9aaa27-a9d1-4553-9f75-5488af376998" />
+<img width="526" height="125" alt="image" src="assets/mac/homebrew/uname-architecture.png" />
 
 `arm64` なら Apple シリコン、`x86_64` なら Intel です。後の手順で迷ったときの目印になります。
 
@@ -52,7 +52,7 @@ brew install rig
 - `brew tap` は Homebrew に新しいソフトの倉庫を追加する合図です。初回だけで大丈夫です。
 - `brew install rig` で rig 本体を入れます。
 
-<img width="561" height="65" alt="image" src="https://github.com/user-attachments/assets/992c65e7-f045-47f3-939b-7b1ffd9fe888" />
+<img width="561" height="65" alt="image" src="assets/mac/homebrew/brew-install-rig.png" />
 
 ## 4. rig で R をインストールする
 
@@ -68,7 +68,7 @@ Homebrew で R 本体を直接インストールすることもできますが�
    rig --version
    ```
 
-<img width="519" height="46" alt="image" src="https://github.com/user-attachments/assets/f3e8952d-ac02-4b3c-a8ad-29a167f84556" />
+<img width="519" height="46" alt="image" src="assets/mac/common/rig-version.png" />
 
     バージョン番号が出れば成功です。
 
@@ -99,7 +99,7 @@ Homebrew で R 本体を直接インストールすることもできますが�
    rig list
    ```
 
-    <img width="444" height="112" alt="image" src="https://github.com/user-attachments/assets/f763d83c-e04b-412b-9362-dd3b13387e36" />
+    <img width="444" height="112" alt="image" src="assets/mac/common/rig-list.png" />
 
    1つだけ入っているならそのバージョンだけが表示されます。
    2つ以上入れた場合は上図のように一覧を確認できます。\*がついているのが現在使っているバージョン(default)です。今は`R4.4.3`になっています。

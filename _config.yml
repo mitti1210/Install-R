@@ -1,0 +1,10 @@
+title: "R / RStudio Installation Guide"
+description: "A comprehensive guide to installing R, RStudio, and related tools on Windows and macOS."
+baseurl: "/Install-R" # Important for GitHub Pages if the repo name is Install-R
+url: "https://mitti1210.github.io" # Replace with actual user domain if known, or assume standard GitHub Pages URL
+
+markdown: kramdown
+theme: null # We are using a custom layout
+
+plugins:
+  - jekyll-seo-tag

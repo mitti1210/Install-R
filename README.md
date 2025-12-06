@@ -1,3 +1,8 @@
+---
+layout: default
+title: Home
+---
+
 # R / Rtools / RStudio のインストール
 
 このリポジトリは授業や研究で使う R 環境を整えるためのガイド集です。

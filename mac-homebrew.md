@@ -1,3 +1,8 @@
+---
+layout: default
+title: "macOS: Homebrew でインストール"
+---
+
 # macOS: Homebrew で R と RStudio をインストールする方法
 
 文字を打つ場所や「Enter」を押すタイミングまで丁寧に説明します。

@@ -1,4 +1,9 @@
-# macOS: RStudio サイトからの簡単インストール
+---
+layout: default
+title: "macOS: RStudio サイトからインストール"
+---
+
+# macOS: RStudio サイトから R と RStudio をインストールする方法
 
 RStudio のサイトから R と RStudio を順番に入れる、もっとも一般的な方法です。迷ったらまずはこの手順で大丈夫です。ターミナルの開き方やコマンドの貼り付け方から丁寧に説明します。
 

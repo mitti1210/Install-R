@@ -1,4 +1,9 @@
-# Windows: RStudio サイトからのインストール
+---
+layout: default
+title: "Windows: RStudio サイトからインストール"
+---
+
+# Windows: RStudio サイトから R と RStudio をインストールする方法
 
 RStudio のサイトから R・Rtools・RStudio を順番に入れる、もっとも一般的な方法です。迷ったらまずはこの手順で大丈夫です。PowerShell の開き方やコマンドの貼り付け方から丁寧に説明します。
 

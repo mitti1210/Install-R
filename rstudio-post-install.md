@@ -1,3 +1,8 @@
+---
+layout: default
+title: "RStudio インストール後の準備"
+---
+
 # RStudioインストール後の準備
 
 ## 1. 文字コードを UTF-8 に設定する
